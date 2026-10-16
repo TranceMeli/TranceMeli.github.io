@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-page);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--heading);
+}
+
+a {
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--cyan-500);
+}
+
+:focus-visible {
+  outline: 3px solid var(--yellow-500);
+  outline-offset: 2px;
+}
+
+/* ---------- Buttons ---------- */
+button {
+  font-family: inherit;
+  font-size: inherit;
+  border: 1px solid var(--border);
+  background: var(--bg-surface);
+  color: var(--heading);
+  padding: 10px 14px;
+  cursor: pointer;
+}

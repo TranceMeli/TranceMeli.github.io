@@ -1,0 +1,50 @@
+/* ==========================================================
+   Farbpalette – https://github.com/TranceMeli/ColorPalette
+   Basis: Cyan (primary), Gelb (secondary), Dunkelgrau (neutral)
+   ========================================================== */
+:root {
+  /* Cyan (primary) */
+  --cyan-50: #e3f7fa;
+  --cyan-100: #b8ecf3;
+  --cyan-300: #4dcbe0;
+  --cyan-500: #00a8c6; /* base */
+  --cyan-700: #007a91;
+  --cyan-900: #0a3a44;
+
+  /* Gelb (secondary) */
+  --yellow-50: #fff9e0;
+  --yellow-100: #fdeda8;
+  --yellow-300: #f9d659;
+  --yellow-500: #f4c518; /* base */
+  --yellow-700: #b8930a;
+  --yellow-900: #5c4805;
+
+  /* Dunkelgrau (neutral) */
+  --gray-50: #f2f2f2;
+  --gray-100: #d6d6d6;
+  --gray-300: #8c8c8c;
+  --gray-500: #5a5a5a;
+  --gray-700: #3a3a3a;
+  --gray-900: #1e1e1e; /* base, Anthrazit */
+
+  /* Hue-Akzente (sparsam einsetzen) */
+  --success: #12b886;
+  --info: #0b7a9e;
+  --warning: #e8871e;
+  --fresh: #c9d648;
+
+  /* Schrift */
+  --font-mono: "JetBrains Mono", "Fira Code", Consolas, "Courier New", monospace;
+
+  /* Semantische Rollen */
+  --bg-page: var(--gray-50);
+  --bg-surface: #fff;
+  --bg-dark: var(--gray-900);
+  --text: var(--gray-700);
+  --text-muted: var(--gray-500);
+  --heading: var(--gray-900);
+  --border: var(--gray-100);
+  --link: var(--cyan-700);
+  --accent: var(--cyan-500);
+  --highlight: var(--yellow-500);
+}

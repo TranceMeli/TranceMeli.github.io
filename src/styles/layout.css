@@ -1,0 +1,202 @@
+/* ---------- App-Container: Fußzeile bleibt unten ---------- */
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ---------- Topbar ---------- */
+.topbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px 24px;
+  padding: 20px 5%;
+  background: var(--bg-dark);
+  border-bottom: 4px solid var(--accent);
+}
+
+.topbar p {
+  margin: 0;
+  color: var(--gray-100);
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+.wordmark {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--highlight);
+  text-decoration: none;
+}
+
+.wordmark:hover {
+  color: var(--yellow-300);
+}
+
+.lang-switch {
+  display: flex;
+  gap: 4px;
+}
+
+.lang-switch a {
+  padding: 4px 10px;
+  color: var(--gray-100);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid var(--gray-500);
+}
+
+.lang-switch a:hover {
+  color: var(--highlight);
+  border-color: var(--highlight);
+}
+
+.lang-switch a[aria-current="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--gray-900);
+}
+
+/* ---------- Layout ---------- */
+.shell {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 30px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 30px auto;
+  padding: 0 25px;
+}
+
+/* ---------- Sidebar ---------- */
+.sidebar a {
+  display: block;
+  padding: 14px;
+  color: var(--text);
+  text-decoration: none;
+  border-left: 4px solid transparent;
+}
+
+.sidebar a:hover {
+  background: var(--cyan-50);
+  color: var(--cyan-900);
+}
+
+.sidebar a[aria-current="page"] {
+  background: var(--bg-surface);
+  color: var(--heading);
+  font-weight: 700;
+  border-left-color: var(--highlight);
+}
+
+/* ---------- Buch / Seiten ---------- */
+.book {
+  min-height: 650px;
+  background: var(--bg-surface);
+  border-top: 4px solid var(--accent);
+  box-shadow: 0 12px 35px #0000001a;
+}
+
+.page {
+  min-height: 650px;
+  padding: 50px;
+}
+
+/* Seitenwechsel (Vue <Transition name="page">) */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.15s ease;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-enter-active,
+  .page-leave-active {
+    transition: none;
+  }
+}
+
+/* ---------- Seiten-Navigation (Zurück / Weiter) ---------- */
+.pager {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.pager button {
+  border-color: var(--accent);
+}
+
+.pager button:hover:not(:disabled) {
+  background: var(--accent);
+  color: var(--gray-900);
+}
+
+.pager .next {
+  background: var(--highlight);
+  border-color: var(--highlight);
+}
+
+.pager .next:hover:not(:disabled) {
+  background: var(--yellow-300);
+  border-color: var(--yellow-300);
+}
+
+.pager button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* ---------- Fußzeile (haftet unten) ---------- */
+.site-footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px 28px;
+  margin-top: auto;
+  padding: 14px 5%;
+  background: var(--cyan-500);
+  border-top: 3px solid var(--highlight);
+  color: var(--gray-900);
+  text-align: center;
+}
+
+.site-footer .cta {
+  margin: 0;
+  font-weight: 700;
+}
+
+.site-footer .contact {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+}
+
+.site-footer a {
+  padding: 4px 12px;
+  background: var(--gray-900);
+  color: var(--highlight);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  background: var(--cyan-900);
+  color: var(--yellow-300);
+}
+
+.site-footer :focus-visible {
+  outline-color: var(--gray-900);
+}

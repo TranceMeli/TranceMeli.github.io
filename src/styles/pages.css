@@ -1,0 +1,353 @@
+/* ---------- Anschreiben & FAQ ---------- */
+.page h1 {
+  margin: 0 0 8px;
+  font-size: 26px;
+  line-height: 1.25;
+}
+
+.page .subtitle {
+  margin: 0 0 32px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+  color: var(--cyan-700);
+}
+
+.letter p {
+  max-width: 72ch;
+  margin: 0 0 1.2em;
+}
+
+.letter .subtitle {
+  max-width: none;
+}
+
+.letter .signature {
+  margin-top: 2em;
+}
+
+.faq-meta {
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+
+.faq-meta p {
+  margin: 0;
+}
+
+.faq-name {
+  color: var(--heading);
+  font-weight: 700;
+}
+
+.faq-role {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.faq-links {
+  margin-top: 8px !important;
+}
+
+.faq blockquote {
+  margin: 0 0 24px;
+  padding: 12px 16px;
+  background: var(--cyan-50);
+  border-left: 4px solid var(--accent);
+  color: var(--cyan-900);
+}
+
+.faq details {
+  max-width: 78ch;
+  border-bottom: 1px solid var(--border);
+}
+
+.faq summary {
+  padding: 14px 8px 14px 0;
+  color: var(--heading);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.faq summary:hover {
+  color: var(--cyan-700);
+}
+
+.faq details[open] > summary {
+  color: var(--cyan-700);
+}
+
+.faq .answer {
+  padding: 0 0 8px 0;
+  border-left: 4px solid var(--highlight);
+  padding-left: 16px;
+  margin-bottom: 16px;
+}
+
+.faq .answer p {
+  margin: 0 0 1em;
+}
+
+/* ---------- Lebenslauf ---------- */
+.cv > * {
+  max-width: 80ch;
+}
+
+.cv .cv-role {
+  margin: 0 0 4px;
+  color: var(--cyan-700);
+  font-weight: 700;
+}
+
+.cv .cv-links {
+  margin: 0;
+}
+
+.cv h2 {
+  margin: 36px 0 16px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--accent);
+  color: var(--cyan-700);
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.cv section p {
+  margin: 0 0 0.8em;
+}
+
+.cv .entry {
+  margin-bottom: 22px;
+}
+
+.cv h3 {
+  margin: 0 0 2px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.cv .entry-meta {
+  margin-bottom: 6px !important;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.cv .tech {
+  color: var(--heading);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.cv ul {
+  margin: 8px 0 0;
+  padding-left: 20px;
+}
+
+.cv li::marker {
+  color: var(--highlight);
+}
+
+.cv .skills p {
+  margin: 0 0 6px;
+}
+
+/* ---------- Projekte (aus projects.json) ---------- */
+.projects .subtitle {
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--accent);
+}
+
+.project-card h3 {
+  margin: 0 0 4px;
+  font-size: 18px;
+}
+
+.project-subtitle {
+  margin: 0 0 12px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.tags li {
+  padding: 2px 8px;
+  background: var(--cyan-50);
+  color: var(--cyan-900);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.highlights {
+  margin: 0 0 16px;
+  padding-left: 20px;
+}
+
+.highlights li::marker {
+  color: var(--highlight);
+}
+
+.project-links {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.project-links a {
+  padding: 6px 12px;
+  background: var(--gray-900);
+  color: var(--highlight);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  background: var(--cyan-700);
+  color: #fff;
+}
+
+/* ---------- Startseite ---------- */
+.page.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.home h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.home h1::after {
+  display: block;
+  width: 80px;
+  height: 6px;
+  margin: 20px auto 0;
+  background: var(--highlight);
+  content: "";
+}
+
+/* ---------- Zeugnisse ---------- */
+.certificates .subtitle {
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+}
+
+.certificate {
+  max-width: 760px;
+  margin: 0 0 32px;
+}
+
+.certificate img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  box-shadow: 0 6px 20px #0000001a;
+}
+
+.certificate figcaption {
+  margin-top: 10px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+/* ---------- Projekte: Kategorien, Status, Screenshots ---------- */
+.project-category {
+  margin-top: 36px;
+}
+
+.category-title {
+  margin: 0 0 16px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--accent);
+  color: var(--cyan-700);
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.category-count {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.project-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  margin-bottom: 4px;
+}
+
+.project-head h3 {
+  margin: 0;
+}
+
+.badge-wip {
+  padding: 1px 8px;
+  background: var(--yellow-100);
+  border: 1px solid var(--yellow-500);
+  color: var(--yellow-900);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Screenshot-Vorschau (klein, öffnet das Modal) */
+.thumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 14px;
+  padding: 0;
+  list-style: none;
+}
+
+.thumb {
+  display: block;
+  padding: 0;
+  border: 1px solid var(--border);
+  background: var(--gray-50);
+  line-height: 0;
+  cursor: zoom-in;
+}
+
+.thumb img {
+  display: block;
+  width: 96px;
+  height: 64px;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.thumb:hover,
+.thumb:focus-visible {
+  border-color: var(--accent);
+}

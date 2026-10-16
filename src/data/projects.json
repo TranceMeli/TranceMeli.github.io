@@ -1,0 +1,1173 @@
+{
+  "categories": [
+    {
+      "id": "webapps",
+      "de": "Full-Stack & Webanwendungen",
+      "en": "Full-Stack & Web Apps"
+    },
+    {
+      "id": "games",
+      "de": "Spiele",
+      "en": "Games"
+    },
+    {
+      "id": "frontend",
+      "de": "Frontend-Projekte",
+      "en": "Frontend Projects"
+    },
+    {
+      "id": "desktop",
+      "de": "Desktop- & Konsolenanwendungen",
+      "en": "Desktop & Console Apps"
+    },
+    {
+      "id": "data",
+      "de": "Datenanalyse",
+      "en": "Data Analysis"
+    },
+    {
+      "id": "learning",
+      "de": "Starter & Lernprojekte",
+      "en": "Starters & Learning Projects"
+    }
+  ],
+  "projects": [
+    {
+      "id": "checkin",
+      "title": "CheckIn 2.0",
+      "category": "webapps",
+      "tech": [
+        "ASP.NET Core",
+        "React",
+        "SQL Server",
+        "Entity Framework Core",
+        "JWT"
+      ],
+      "repo": "https://github.com/TranceMeli/CheckIn",
+      "demo": null,
+      "featured": true,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/CheckIn/HEAD/frontend/src/assets/checkin_v2_preview.jpeg"
+      ],
+      "de": {
+        "subtitle": "Webbasierte Anwesenheitsverwaltung – Weiterentwicklung des IHK-Abschlussprojekts",
+        "highlights": [
+          "Weiterentwicklung einer webbasierten Anwesenheitsverwaltung",
+          "Überarbeitung der Architektur und Optimierung bestehender Komponenten",
+          "Erweiterung des Rollen- und Berechtigungskonzepts",
+          "Verbesserung der Benutzeroberfläche und User Experience",
+          "Kontinuierliche Weiterentwicklung nach erfolgreichem IHK-Abschluss"
+        ]
+      },
+      "en": {
+        "subtitle": "Web-based attendance management – further development of my IHK final project",
+        "highlights": [
+          "Further development of a web-based attendance management system",
+          "Reworked the architecture and optimized existing components",
+          "Extended the role and permission concept",
+          "Improved the user interface and user experience",
+          "Continuous development after successfully completing the IHK exam"
+        ]
+      }
+    },
+    {
+      "id": "jobmatch",
+      "title": "JobMatch",
+      "category": "webapps",
+      "tech": [
+        "React",
+        "ASP.NET Core",
+        ".NET 10",
+        "Entity Framework Core",
+        "SQLite",
+        "JWT",
+        "Vite"
+      ],
+      "repo": "https://github.com/TranceMeli/JobMatch",
+      "demo": null,
+      "status": "wip",
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/match_screen_1.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/match_screen_2.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/profile_screen_company.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/profile_screen_user.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/questions_screen_company.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/questions_screen_user.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/match_screen_3.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/match_screen_4.jpeg"
+      ],
+      "de": {
+        "subtitle": "Zweiseitige Job-Matching-Plattform für Arbeitssuchende und Unternehmen",
+        "highlights": [
+          "Wiederverwendbare Profile statt Einzelbewerbungen: Bewerber:innen und Unternehmen hinterlegen ihre Angaben und Anforderungen",
+          "Gemeinsamer, jobbezogener Fragebogen als Grundlage für das Matching",
+          "Authentifizierung mit ASP.NET Core Identity, JWT und Refresh Tokens",
+          "Open Source und in aktiver Entwicklung"
+        ]
+      },
+      "en": {
+        "subtitle": "Two-sided job matching platform for job seekers and companies",
+        "highlights": [
+          "Reusable profiles instead of one-off applications: job seekers and companies provide their details and requirements",
+          "Shared, job-related questionnaire as the basis for matching",
+          "Authentication with ASP.NET Core Identity, JWT and refresh tokens",
+          "Open source and under active development"
+        ]
+      }
+    },
+    {
+      "id": "application-tracker",
+      "title": "Application Tracker",
+      "category": "webapps",
+      "tech": [
+        "Vue 3",
+        "Vite",
+        "Django REST Framework",
+        "SQLite"
+      ],
+      "repo": "https://github.com/TranceMeli/ApplicationTracker",
+      "demo": null,
+      "status": "wip",
+      "de": {
+        "subtitle": "Webanwendung zur Verwaltung von Bewerbungen von der ersten Kontaktaufnahme bis zur Antwort",
+        "highlights": [
+          "Status-Workflow, Favoriten, Live-Suche und Filter mit Zählern",
+          "Konfigurierbare Felder: Tabellenspalten und Formularfelder frei wählbar",
+          "Import von Firmenlisten (CSV, XLSX, ODS, JSON) mit Vorschau sowie CSV-Export",
+          "Dokumente pro Bewerbung, Oberfläche auf Deutsch und Englisch"
+        ]
+      },
+      "en": {
+        "subtitle": "Web app for tracking job applications from first contact to the final answer",
+        "highlights": [
+          "Status workflow, favorites, live search and filters with counters",
+          "Configurable fields: table columns and form fields can be chosen freely",
+          "Company list import (CSV, XLSX, ODS, JSON) with preview, plus CSV export",
+          "Document attachments per application, German and English interface"
+        ]
+      }
+    },
+    {
+      "id": "sassybot",
+      "title": "SassyBot",
+      "category": "webapps",
+      "tech": [
+        "Python",
+        "Gemini API",
+        "TF-IDF"
+      ],
+      "repo": "https://github.com/TranceMeli/SassyBot",
+      "demo": null,
+      "featured": true,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/SassyBot/HEAD/assets/sassybot_screen.png"
+      ],
+      "de": {
+        "subtitle": "Modularer Python-Chatbot mit KI-Anbindung und lokaler Textsuche",
+        "highlights": [
+          "Entwicklung eines modularen Chatbots mit Python und der Gemini API",
+          "Kombination von KI-generierten Antworten und TF-IDF-basierter Textsuche",
+          "Umsetzung einer erweiterbaren Architektur für verschiedene Chatbot-Persönlichkeiten",
+          "Entwicklung einer interaktiven Benutzeroberfläche für die Echtzeit-Kommunikation"
+        ]
+      },
+      "en": {
+        "subtitle": "Modular Python chatbot with AI integration and local text search",
+        "highlights": [
+          "Developed a modular chatbot with Python and the Gemini API",
+          "Combined AI-generated responses with TF-IDF-based text search",
+          "Built an extensible architecture for different chatbot personalities",
+          "Developed an interactive user interface for real-time communication"
+        ]
+      }
+    },
+    {
+      "id": "vue-django-jwt-auth",
+      "title": "Vue + Django JWT Auth",
+      "category": "webapps",
+      "tech": [
+        "Vue 3",
+        "Pinia",
+        "Django REST Framework",
+        "JWT"
+      ],
+      "repo": "https://github.com/TranceMeli/VueDjangoJWTAuth",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/VueDjangoJWTAuth/HEAD/frontend/src/assets/login_preview.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/VueDjangoJWTAuth/HEAD/frontend/src/assets/admin_preview.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/VueDjangoJWTAuth/HEAD/frontend/src/assets/user_preview.jpeg"
+      ],
+      "de": {
+        "subtitle": "Vorlage für sichere JWT-Authentifizierung mit rollenbasierten Dashboards",
+        "highlights": [
+          "Access Token nur im Arbeitsspeicher, Refresh Token als HttpOnly-Cookie",
+          "Rotation der Refresh Tokens und automatische Erneuerung im Hintergrund",
+          "Rollenbasierte Dashboards für Admin und User",
+          "Als Lernprojekt und wiederverwendbare Ausgangsbasis gebaut"
+        ]
+      },
+      "en": {
+        "subtitle": "Template for secure JWT authentication with role-based dashboards",
+        "highlights": [
+          "Access token kept in memory only, refresh token in an HttpOnly cookie",
+          "Refresh token rotation and silent renewal in the background",
+          "Role-based dashboards for admin and user",
+          "Built as a learning project and reusable starting point"
+        ]
+      }
+    },
+    {
+      "id": "simple-draw-app",
+      "title": "Simple Drawing App",
+      "category": "webapps",
+      "tech": [
+        "Vue 3",
+        "Konva",
+        "JavaScript"
+      ],
+      "repo": "https://github.com/TranceMeli/SimpleDrawApp",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/SimpleDrawApp/HEAD/src/images/drawing_app_screen.jpeg"
+      ],
+      "de": {
+        "subtitle": "Zeichenprogramm mit Vue 3 und Konva statt rohem Canvas",
+        "highlights": [
+          "Stift und Radierer mit einstellbarer Pinselgröße, Farbe und Linienenden",
+          "Gezeichnetes bleibt als bearbeitbare Objekte erhalten (Linien, Bilder)",
+          "Bilder einfügen, verschieben, skalieren und drehen",
+          "Zeichenfläche per Drag vergrößern, Export als PNG"
+        ]
+      },
+      "en": {
+        "subtitle": "Drawing app built with Vue 3 and Konva instead of raw canvas calls",
+        "highlights": [
+          "Pen and eraser with adjustable brush size, color and line caps",
+          "Drawings stay editable objects (lines, images) instead of flat pixels",
+          "Insert images, then move, resize and rotate them",
+          "Resize the canvas by dragging, export as PNG"
+        ]
+      }
+    },
+    {
+      "id": "art-generator",
+      "title": "ASCII Art Generator",
+      "category": "webapps",
+      "tech": [
+        "Python",
+        "Flask",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "repo": "https://github.com/TranceMeli/ArtGenerator",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/ArtGenerator/HEAD/images/ascii-art_1.png",
+        "https://raw.githubusercontent.com/TranceMeli/ArtGenerator/HEAD/images/ascii-art_2.png",
+        "https://raw.githubusercontent.com/TranceMeli/ArtGenerator/HEAD/images/ascii-art_3.png"
+      ],
+      "de": {
+        "subtitle": "Flask-Webanwendung für zufällige, abstrakte ASCII-Kunst",
+        "highlights": [
+          "Mehrere Themes und eigene Zeichensätze",
+          "Einstellbare Breite, Höhe und Abstände",
+          "Kopieren in die Zwischenablage und Export als PNG"
+        ]
+      },
+      "en": {
+        "subtitle": "Flask web app for generating random abstract ASCII art",
+        "highlights": [
+          "Multiple visual themes and custom character sets",
+          "Adjustable width, height and spacing",
+          "Copy to clipboard and export as PNG"
+        ]
+      }
+    },
+    {
+      "id": "zenjewel",
+      "title": "ZenJewel",
+      "category": "games",
+      "tech": [
+        "Godot 4",
+        "GDScript"
+      ],
+      "repo": "https://github.com/TranceMeli/ZenJewel",
+      "demo": null,
+      "status": "wip",
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/ZenJewel/HEAD/images/zenjewel_screen.png"
+      ],
+      "de": {
+        "subtitle": "Entspanntes Match-3-Puzzlespiel mit Godot 4, ohne Timer und Leben",
+        "highlights": [
+          "Reiner Zen-Modus: kein Verlieren, kein Zeitdruck",
+          "Levelaufstieg über Punkte, gesammelte Edelsteine schalten Kosmetik frei",
+          "Solo-Portfolioprojekt mit Engine-Programmierung, Spieldesign, Pixel Art und eigener Musik"
+        ]
+      },
+      "en": {
+        "subtitle": "Relaxing match-3 puzzle game built with Godot 4, with no timers or lives",
+        "highlights": [
+          "Zen mode only: no losing condition, no time pressure",
+          "Level-ups through score, collected gems unlock cosmetics",
+          "Solo portfolio project covering engine programming, game design, pixel art and original music"
+        ]
+      }
+    },
+    {
+      "id": "roast-pong",
+      "title": "Roast Pong",
+      "category": "games",
+      "tech": [
+        "Godot 4",
+        "GDScript",
+        "Gemini API"
+      ],
+      "repo": "https://github.com/TranceMeli/RoastPong",
+      "demo": null,
+      "screenshots": [
+        "https://github.com/user-attachments/assets/caa8218a-f606-44bb-a57b-c2bff576cd43"
+      ],
+      "de": {
+        "subtitle": "Pong mit Twist: Zwei CPU-Paddles roasten sich nach jedem Punkt",
+        "highlights": [
+          "Roasts werden live von der Google Gemini API erzeugt, mit lokaler Roast-Liste als Fallback",
+          "KI-Konter des Verlierers und Bewertung der Roasts von 1 bis 10",
+          "Hauptmenü mit Schwierigkeit und Punktelimit, Game-Over-Screen mit Rematch"
+        ]
+      },
+      "en": {
+        "subtitle": "Pong with a twist: two CPU paddles roast each other after every point",
+        "highlights": [
+          "Roasts generated live by the Google Gemini API, with a local roast list as fallback",
+          "AI comeback from the loser and roast scoring from 1 to 10",
+          "Main menu with difficulty and score limit, game-over screen with rematch"
+        ]
+      }
+    },
+    {
+      "id": "schnitzel-verbrechen",
+      "title": "SchnitzelVerbrechen",
+      "category": "games",
+      "tech": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "repo": "https://github.com/TranceMeli/SchnitzelVerbrechen",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/SchnitzelVerbrechen/HEAD/Screenshot%202026-05-28%20130547.png"
+      ],
+      "de": {
+        "subtitle": "Chaotisches Memory-Spiel rund um absurde „Schnitzel-Verbrechen“",
+        "highlights": [
+          "Klassisches Memory-Prinzip mit humorvollem Thema",
+          "Leichtgewichtige JavaScript-Logik",
+          "Version 02: überarbeitete Fassung des ursprünglichen Konzepts"
+        ]
+      },
+      "en": {
+        "subtitle": "Chaotic memory card game about absurd “schnitzel crimes”",
+        "highlights": [
+          "Classic memory gameplay with a humorous theme",
+          "Lightweight JavaScript logic",
+          "Version 02: a reworked version of the original concept"
+        ]
+      }
+    },
+    {
+      "id": "word-shuffle-game",
+      "title": "WordShuffleGame",
+      "category": "games",
+      "tech": [
+        "C#",
+        ".NET",
+        "Console"
+      ],
+      "repo": "https://github.com/TranceMeli/WordShuffleGame",
+      "demo": null,
+      "screenshots": [
+        "https://github.com/user-attachments/assets/008107c0-18bf-4d39-99c4-b7d70f5965f2"
+      ],
+      "de": {
+        "subtitle": "Retro-Konsolenspiel in C#: Wörter merken und das verwürfelte Wort erraten",
+        "highlights": [
+          "ASCII-Oberfläche mit Pfeiltasten-Menü",
+          "20 Sekunden Merkphase mit animiertem Countdown-Balken",
+          "Verwürfeltes Wort erraten, Lebenssystem",
+          "Fokus auf String-Manipulation"
+        ]
+      },
+      "en": {
+        "subtitle": "Retro console game in C#: memorize words, then guess the shuffled word",
+        "highlights": [
+          "ASCII console UI with arrow key menu",
+          "20-second memory phase with an animated countdown bar",
+          "Guess the shuffled word, lives system",
+          "Focus on string manipulation"
+        ]
+      }
+    },
+    {
+      "id": "task-counter",
+      "title": "Task Counter",
+      "category": "frontend",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "LocalStorage",
+        "Canvas"
+      ],
+      "repo": "https://github.com/TranceMeli/TaskCounter",
+      "demo": null,
+      "featured": true,
+      "screenshots": [
+        "https://github.com/user-attachments/assets/f4e6b454-1845-4a67-b437-9375a32270e4"
+      ],
+      "de": {
+        "subtitle": "Webanwendung zur Verwaltung und Zählung von Aufgaben",
+        "highlights": [
+          "Entwicklung einer interaktiven Webanwendung mit HTML, CSS und JavaScript",
+          "Umsetzung einer Listenverwaltung mit CRUD-Funktionen und LocalStorage",
+          "Integration einer Canvas-Zeichenfläche zur visuellen Erfassung von Zählvorgängen",
+          "Responsive Benutzeroberfläche mit Fokus auf Benutzerfreundlichkeit"
+        ]
+      },
+      "en": {
+        "subtitle": "Web application for managing and counting tasks",
+        "highlights": [
+          "Developed an interactive web application with HTML, CSS, and JavaScript",
+          "Implemented list management with CRUD functions and LocalStorage",
+          "Integrated a canvas drawing area for visually recording counts",
+          "Responsive user interface with a focus on usability"
+        ]
+      }
+    },
+    {
+      "id": "theme-generator",
+      "title": "Theme Generator",
+      "category": "frontend",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "repo": "https://github.com/TranceMeli/ThemeGenerator",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/ThemeGenerator/HEAD/assets/screenshot_theme_generator.jpeg"
+      ],
+      "de": {
+        "subtitle": "Browser-Tool, das passende Farbthemen in Echtzeit erzeugt",
+        "highlights": [
+          "Vier Farbharmonien (Monochrom, Analog, Komplementär, Triade) plus Zufallsmix",
+          "Textfarbe (Schwarz/Weiß) wird pro Element aus der Helligkeit berechnet",
+          "Hover-Farben aus dem aktiven Theme abgeleitet",
+          "Farbchips kopieren den HSL-Wert per Klick"
+        ]
+      },
+      "en": {
+        "subtitle": "Browser tool that generates harmonious color themes in real time",
+        "highlights": [
+          "Four color harmony modes (monochrome, analogous, complementary, triadic) plus random mix",
+          "Text color (black/white) computed per element from lightness",
+          "Hover colors derived from the active theme",
+          "Color chips copy their HSL value on click"
+        ]
+      }
+    },
+    {
+      "id": "theme-switch",
+      "title": "Light/Dark Theme Switch",
+      "category": "frontend",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "repo": "https://github.com/TranceMeli/ThemeSwitch",
+      "demo": null,
+      "screenshots": [
+        "https://github.com/user-attachments/assets/12b3c1d0-fa94-485a-93e2-3e8c489ca49f",
+        "https://github.com/user-attachments/assets/161e6bec-e046-4517-b6e5-c30900803bdb",
+        "https://github.com/user-attachments/assets/5049f179-8f04-4437-80a9-9a182e9f7e8c",
+        "https://github.com/user-attachments/assets/acdb2db4-ff44-4c11-92ab-154b1d0ab1c6"
+      ],
+      "de": {
+        "subtitle": "Umschalter zwischen hellem und dunklem Theme mit Toggle und Button",
+        "highlights": [
+          "Zwei Farbpaletten für den hellen und dunklen Modus",
+          "Umschalten per Toggle oder Button"
+        ]
+      },
+      "en": {
+        "subtitle": "Switch between a light and a dark theme with a toggle and a button",
+        "highlights": [
+          "Two color palettes for light and dark mode",
+          "Switching via toggle or button"
+        ]
+      }
+    },
+    {
+      "id": "dice-roller",
+      "title": "Dice Roller",
+      "category": "frontend",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Chart.js"
+      ],
+      "repo": "https://github.com/TranceMeli/DiceRoller",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/DiceRoller/HEAD/images/dice_roller_preview.png"
+      ],
+      "de": {
+        "subtitle": "Würfelsimulator mit eigenen Vektor-Würfeln und Wahrscheinlichkeits-Prognose",
+        "highlights": [
+          "1 bis 20 Würfel gleichzeitig, mit Einzelwerten und Summe",
+          "Selbst gezeichnete Vektor-Würfelgrafiken",
+          "Live-Diagramm (Chart.js) der Wahrscheinlichkeitsverteilung aller möglichen Summen",
+          "Eingabevalidierung und kleine CSS-Animation"
+        ]
+      },
+      "en": {
+        "subtitle": "Dice roller with custom vector dice and a probability forecast chart",
+        "highlights": [
+          "Roll 1 to 20 dice at once, with individual values and sum",
+          "Original vector-art dice sprites",
+          "Live chart (Chart.js) of the probability distribution of all possible sums",
+          "Input validation and a small CSS animation"
+        ]
+      }
+    },
+    {
+      "id": "converter",
+      "title": "Unit Converter",
+      "category": "frontend",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "repo": "https://github.com/TranceMeli/Converter",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/Converter/HEAD/images/screenshot_calculator.jpeg"
+      ],
+      "de": {
+        "subtitle": "Umrechner für Einheiten, die im Alltag mit amerikanischen Kontakten verwirren",
+        "highlights": [
+          "Fahrenheit/Celsius, Fuß und Zoll/Zentimeter, Meilen/Kilometer, Pfund/Kilogramm",
+          "Live-Umrechnung beim Tippen, in beide Richtungen",
+          "Flexible Eingabe von Fuß und Zoll (z. B. 5'9\" oder 5 9)"
+        ]
+      },
+      "en": {
+        "subtitle": "Converter for the units that cause confusion with American contacts",
+        "highlights": [
+          "Fahrenheit/Celsius, feet and inches/centimeters, miles/kilometers, pounds/kilograms",
+          "Live conversion while typing, in both directions",
+          "Flexible input for feet and inches (e.g. 5'9\" or 5 9)"
+        ]
+      }
+    },
+    {
+      "id": "pride-flag",
+      "title": "Rainbow Meaning Cards",
+      "category": "frontend",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "repo": "https://github.com/TranceMeli/PrideFlag",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/PrideFlag/HEAD/assets/flag_screen.png"
+      ],
+      "de": {
+        "subtitle": "Kleines Frontend-Projekt: Regenbogen mit erklärten Farbbedeutungen",
+        "highlights": [
+          "Vertikaler Regenbogen der Pride-Flagge mit sechs Farben",
+          "Klick auf eine Farbe öffnet ein Modal mit der Bedeutung"
+        ]
+      },
+      "en": {
+        "subtitle": "Small frontend project: a rainbow with explained color meanings",
+        "highlights": [
+          "Vertical rainbow based on the Pride flag with six colors",
+          "Clicking a color opens a modal explaining its meaning"
+        ]
+      }
+    },
+    {
+      "id": "trivia-quiz",
+      "title": "TriviaQuiz",
+      "category": "frontend",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Open Trivia DB"
+      ],
+      "repo": "https://github.com/TranceMeli/TriviaQuiz",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/TriviaQuiz/HEAD/assets/trivia_quiz.jpeg"
+      ],
+      "de": {
+        "subtitle": "Quiz-Anwendung mit Fragen aus der Open Trivia DB",
+        "highlights": [
+          "Fragen werden dynamisch von einer externen API geladen",
+          "Antwortauswahl mit sofortigem visuellem Feedback und Punktestand",
+          "Anzahl der Fragen, Kategorie und Schwierigkeit einstellbar",
+          "Vanilla JavaScript mit ES-Modulen"
+        ]
+      },
+      "en": {
+        "subtitle": "Quiz app with questions from the Open Trivia DB",
+        "highlights": [
+          "Questions loaded dynamically from an external API",
+          "Multiple choice with instant visual feedback and score tracking",
+          "Configurable number of questions, category and difficulty",
+          "Vanilla JavaScript with ES modules"
+        ]
+      }
+    },
+    {
+      "id": "coffee",
+      "title": "Coffee Picture Generator",
+      "category": "frontend",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Coffee API"
+      ],
+      "repo": "https://github.com/TranceMeli/Coffee",
+      "demo": null,
+      "screenshots": [
+        "https://github.com/user-attachments/assets/d0429b73-c0a3-4ab7-b56b-8b7fd491b972"
+      ],
+      "de": {
+        "subtitle": "Zufälliger Kaffee-Bildgenerator auf Basis der Coffee API",
+        "highlights": [
+          "Lädt zufällige Kaffeebilder über die Coffee API",
+          "Eigene Farbpalette in Kaffeetönen"
+        ]
+      },
+      "en": {
+        "subtitle": "Random coffee picture generator based on the Coffee API",
+        "highlights": [
+          "Loads random coffee pictures via the Coffee API",
+          "Custom color palette in coffee tones"
+        ]
+      }
+    },
+    {
+      "id": "holy-grail-design",
+      "title": "Holy Grail Layout",
+      "category": "frontend",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "repo": "https://github.com/TranceMeli/HolyGrailDesign",
+      "demo": null,
+      "screenshots": [
+        "https://github.com/user-attachments/assets/7bfcf4af-32ac-47e9-b2d8-ff19e359329c"
+      ],
+      "de": {
+        "subtitle": "Showcase des „Holy Grail“-Layouts mit HTML und CSS",
+        "highlights": []
+      },
+      "en": {
+        "subtitle": "Showcase of the “Holy Grail” layout in HTML and CSS",
+        "highlights": []
+      }
+    },
+    {
+      "id": "songdatabase",
+      "title": "Song Database",
+      "category": "desktop",
+      "tech": [
+        "Python",
+        "PySide (Qt 6)",
+        "SQLAlchemy",
+        "SQLite"
+      ],
+      "repo": "https://github.com/TranceMeli/Songdatabase",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/Songdatabase/HEAD/assets/preview_1.png",
+        "https://raw.githubusercontent.com/TranceMeli/Songdatabase/HEAD/assets/preview_2.png"
+      ],
+      "de": {
+        "subtitle": "Lokale Desktop-App zum Katalogisieren eigener Songs",
+        "highlights": [
+          "Titel, Artist, Genre, BPM, Tonart, Links, Cover und die Geschichte hinter jedem Song",
+          "Vollständiges CRUD mit Tabellenansicht, Live-Suche und sortierbaren Spalten",
+          "Cover als Thumbnail pro Song",
+          "Entstanden aus dem Bedarf, die eigenen Tracks zu ordnen"
+        ]
+      },
+      "en": {
+        "subtitle": "Local desktop app for cataloguing my own tracks",
+        "highlights": [
+          "Title, artist, genre, BPM, key, links, cover art and the story behind each song",
+          "Full CRUD with table view, live search and sortable columns",
+          "Cover art shown as a thumbnail per song",
+          "Born from the need to organize my own music"
+        ]
+      }
+    },
+    {
+      "id": "poem-creator",
+      "title": "PoemCreator",
+      "category": "desktop",
+      "tech": [
+        "C#",
+        ".NET 10",
+        "SQLite",
+        "Gemini API"
+      ],
+      "repo": "https://github.com/TranceMeli/PoemCreator",
+      "demo": null,
+      "screenshots": [
+        "https://github.com/user-attachments/assets/32e99705-bfc6-4a6b-8989-07925e97c409",
+        "https://github.com/user-attachments/assets/3be2e53b-cae8-403f-82b7-16b7a6d3d4e4"
+      ],
+      "de": {
+        "subtitle": "C#-Konsolenanwendung zum Erstellen von Gedichten mit KI-Unterstützung",
+        "highlights": [
+          "Gedichte per Gemini API nach Stimmung und Starterzeilen, mit lokalem Fallback",
+          "Mehrere Stimmungen und wählbare Länge",
+          "Speichern, Ansehen und Löschen in einer SQLite-Datenbank",
+          "Konsolenoberfläche mit Farben, Menüs und animiertem Fortschritt"
+        ]
+      },
+      "en": {
+        "subtitle": "C# console app for creating poems with AI assistance",
+        "highlights": [
+          "Poems generated via the Gemini API from a mood and seed lines, with local fallback",
+          "Multiple moods and adjustable length",
+          "Save, view and delete poems in a SQLite database",
+          "Console UI with colors, menus and animated progress"
+        ]
+      }
+    },
+    {
+      "id": "password-tui",
+      "title": "Password Generator TUI",
+      "category": "desktop",
+      "tech": [
+        "Python",
+        "Textual"
+      ],
+      "repo": "https://github.com/TranceMeli/PasswordTUI",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/PasswordTUI/HEAD/images/pw_generator_screen.png"
+      ],
+      "de": {
+        "subtitle": "Passwortgenerator mit Terminal-Oberfläche (Python und Textual)",
+        "highlights": [
+          "Länge sowie Klein-/Großbuchstaben, Zahlen und Sonderzeichen wählbar",
+          "Sichere Zufallserzeugung mit dem secrets-Modul",
+          "Passwort standardmäßig verborgen, Kopieren in die Zwischenablage",
+          "Retro-inspiriertes Design"
+        ]
+      },
+      "en": {
+        "subtitle": "Password generator with a terminal interface (Python and Textual)",
+        "highlights": [
+          "Selectable length, lowercase, uppercase, numbers and special characters",
+          "Secure generation with Python's secrets module",
+          "Password hidden by default, copy to clipboard",
+          "Retro-inspired design"
+        ]
+      }
+    },
+    {
+      "id": "key-arrow-menu",
+      "title": "Arrow Key Menu",
+      "category": "desktop",
+      "tech": [
+        "C#",
+        "Console"
+      ],
+      "repo": "https://github.com/TranceMeli/KeyArrowMenu",
+      "demo": null,
+      "screenshots": [
+        "https://github.com/user-attachments/assets/b7dc8582-4083-43bb-bc1a-9e25ffce92bf"
+      ],
+      "de": {
+        "subtitle": "Wiederverwendbares Pfeiltasten-Menü für C#-Konsolenanwendungen",
+        "highlights": [
+          "Eine einzelne Datei, keine Abhängigkeiten",
+          "Einfache Fluent-Syntax: Optionen mit Aktionen hinzufügen"
+        ]
+      },
+      "en": {
+        "subtitle": "Reusable arrow-key menu for C# console applications",
+        "highlights": [
+          "Drop in one file, no dependencies",
+          "Simple fluent syntax: add options with actions"
+        ]
+      }
+    },
+    {
+      "id": "console-countdown",
+      "title": "ASCII Countdown",
+      "category": "desktop",
+      "tech": [
+        "C#",
+        "Console"
+      ],
+      "repo": "https://github.com/TranceMeli/ConsoleCountdown",
+      "demo": null,
+      "screenshots": [
+        "https://github.com/user-attachments/assets/de2e1099-8fee-45b4-b286-d785cc15e632"
+      ],
+      "de": {
+        "subtitle": "Wiederverwendbare ASCII-Countdown-Komponente für C#-Konsolenspiele",
+        "highlights": [
+          "ASCII-Fortschrittsbalken mit visuellem Feedback",
+          "Optionaler Abbruch mit Q, keine Abhängigkeiten"
+        ]
+      },
+      "en": {
+        "subtitle": "Reusable ASCII countdown component for C# console games",
+        "highlights": [
+          "ASCII progress bar with visual feedback",
+          "Optional cancel with Q, no dependencies"
+        ]
+      }
+    },
+    {
+      "id": "random-menu-generator",
+      "title": "Zufalls-Essens-Generator",
+      "category": "desktop",
+      "tech": [
+        "C#",
+        ".NET",
+        "Console"
+      ],
+      "repo": "https://github.com/TranceMeli/ZufallsEssensGenerator",
+      "demo": null,
+      "screenshots": [
+        "https://github.com/user-attachments/assets/4d20f252-99c2-4b6e-beb8-9801ddd914a0"
+      ],
+      "de": {
+        "subtitle": "Konsolen-App, die zufällig ein komplettes Menü zusammenstellt",
+        "highlights": [
+          "Völlig zufällig oder nach Länderküche (Italien, Japan, Mexiko, Griechenland)",
+          "Warenkorb mit Gesamtpreis und simuliertem Bestellvorgang",
+          "ASCII-Oberfläche mit Tastaturnavigation"
+        ]
+      },
+      "en": {
+        "subtitle": "Console app that puts together a random full menu",
+        "highlights": [
+          "Completely random or by cuisine (Italy, Japan, Mexico, Greece)",
+          "Shopping cart with total price and a simulated ordering process",
+          "ASCII UI with keyboard navigation"
+        ],
+        "title": "Random Menu Generator"
+      }
+    },
+    {
+      "id": "us-names-analysis",
+      "title": "US Baby Names Analysis",
+      "category": "data",
+      "tech": [
+        "Python",
+        "SQL",
+        "SQLite",
+        "Plotly",
+        "Jupyter"
+      ],
+      "repo": "https://github.com/TranceMeli/USNamesAnalysis",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/USNamesAnalysis/HEAD/assets/image.png",
+        "https://raw.githubusercontent.com/TranceMeli/USNamesAnalysis/HEAD/assets/dashboard_names.png"
+      ],
+      "de": {
+        "subtitle": "Explorative Analyse und interaktives Dashboard zu US-Babynamen (1880–2014)",
+        "highlights": [
+          "Daten aus einer SQLite-Datenbank, ausgewertet mit Python, SQL und Plotly",
+          "Beliebteste Vornamen über den gesamten Zeitraum",
+          "Entwicklung der Namen im Zeitverlauf und regionale Unterschiede zwischen den US-Staaten"
+        ]
+      },
+      "en": {
+        "subtitle": "Exploratory analysis and interactive dashboard on US baby name trends (1880–2014)",
+        "highlights": [
+          "Data queried from a SQLite database and analyzed with Python, SQL and Plotly",
+          "Most popular names across the entire period",
+          "Name trends over time and regional differences between US states"
+        ]
+      }
+    },
+    {
+      "id": "netflix-analysis",
+      "title": "Netflix Dashboard (Power BI)",
+      "category": "data",
+      "tech": [
+        "Power BI",
+        "Power Query"
+      ],
+      "repo": "https://github.com/TranceMeli/NetflixAnalysis",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/NetflixAnalysis/HEAD/images/screenshot-overview.png"
+      ],
+      "de": {
+        "subtitle": "Interaktives Power-BI-Dashboard zum Netflix-Katalog",
+        "highlights": [
+          "Analyse nach Ländern, Genres, Regisseuren und Altersfreigaben",
+          "Datenaufbereitung mit Power Query (ca. 8.800 Titel aus einem Kaggle-Datensatz)"
+        ]
+      },
+      "en": {
+        "subtitle": "Interactive Power BI dashboard on the Netflix catalog",
+        "highlights": [
+          "Analysis by country, genre, director and age rating",
+          "Data preparation with Power Query (about 8,800 titles from a Kaggle dataset)"
+        ]
+      }
+    },
+    {
+      "id": "spotify-analysis",
+      "title": "Spotify Songs 2023 Analysis",
+      "category": "data",
+      "tech": [
+        "Python",
+        "Jupyter"
+      ],
+      "repo": "https://github.com/TranceMeli/Spotify",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/Spotify/HEAD/images/spotify_screen.png"
+      ],
+      "de": {
+        "subtitle": "Analyse der meistgestreamten Spotify-Songs 2023",
+        "highlights": [
+          "Kaggle-Datensatz mit 953 Songs und 24 Variablen",
+          "Fokus auf musikalische Merkmale wie Tonart, Modus, BPM, Danceability und Energy"
+        ]
+      },
+      "en": {
+        "subtitle": "Analysis of the most streamed Spotify songs of 2023",
+        "highlights": [
+          "Kaggle dataset with 953 songs and 24 variables",
+          "Focus on musical features such as key, mode, BPM, danceability and energy"
+        ]
+      }
+    },
+    {
+      "id": "airline",
+      "title": "Airline Sentiment Analysis",
+      "category": "data",
+      "tech": [
+        "Python",
+        "pandas",
+        "SQLite",
+        "Matplotlib",
+        "Seaborn",
+        "Jupyter"
+      ],
+      "repo": "https://github.com/TranceMeli/Airline",
+      "demo": null,
+      "status": "wip",
+      "de": {
+        "subtitle": "Datenanalyse zur Stimmung in Tweets an große US-Fluggesellschaften",
+        "highlights": [
+          "14.485 Tweets zu sechs Airlines, gelabelt als positiv, neutral oder negativ",
+          "Exploration, Bereinigung und Visualisierung mit Python, pandas und SQLite",
+          "Drei Notebooks: Exploration, Cleaning und Visualisierung"
+        ]
+      },
+      "en": {
+        "subtitle": "Data analysis of customer sentiment toward major US airlines, based on tweets",
+        "highlights": [
+          "14,485 tweets about six airlines, labeled positive, neutral or negative",
+          "Exploration, cleaning and visualization with Python, pandas and SQLite",
+          "Three notebooks: exploration, cleaning and visualization"
+        ]
+      }
+    },
+    {
+      "id": "crocodile-data",
+      "title": "Crocodile Data Dashboard",
+      "category": "data",
+      "tech": [
+        "Python",
+        "Streamlit",
+        "Plotly",
+        "pandas",
+        "Jupyter"
+      ],
+      "repo": "https://github.com/TranceMeli/CrocodileData",
+      "demo": "https://crocodiledata-apprjoadszyne2saevozasw.streamlit.app/",
+      "de": {
+        "subtitle": "Interaktives Streamlit-Dashboard zum Global Crocodile Species Dataset",
+        "highlights": [
+          "Altersklassen, durchschnittliche Länge und Gewicht, häufigste Lebensräume und Schutzstatus",
+          "Kennzahlen zur Datenqualität, darunter fehlende Werte und Duplikate",
+          "Interaktive Plotly-Diagramme mit Hover und Zoom",
+          "Zusätzlich Jupyter-Notebooks für Exploration und Visualisierung"
+        ]
+      },
+      "en": {
+        "subtitle": "Interactive Streamlit dashboard for the Global Crocodile Species Dataset",
+        "highlights": [
+          "Age classes, average length and weight, top habitats and conservation status",
+          "Dataset quality metrics, including missing and duplicate values",
+          "Interactive Plotly charts with hover and zoom",
+          "Plus Jupyter notebooks for exploration and visualization"
+        ]
+      }
+    },
+    {
+      "id": "minimal-asp-react",
+      "title": "ASP.NET Core + React Starter",
+      "category": "learning",
+      "tech": [
+        "ASP.NET Core",
+        "React",
+        "Vite"
+      ],
+      "repo": "https://github.com/TranceMeli/MinimalASPReact",
+      "demo": null,
+      "de": {
+        "subtitle": "Minimaler Full-Stack-Starter mit ASP.NET Core Web API und React + Vite",
+        "highlights": [
+          "Saubere Ausgangsbasis zum Weiterbauen"
+        ]
+      },
+      "en": {
+        "subtitle": "Minimal full-stack starter with an ASP.NET Core Web API and a React + Vite frontend",
+        "highlights": [
+          "Clean base to build on"
+        ]
+      }
+    },
+    {
+      "id": "minimal-django-vue",
+      "title": "Django + Vue Starter",
+      "category": "learning",
+      "tech": [
+        "Django REST Framework",
+        "Vue 3",
+        "Vite"
+      ],
+      "repo": "https://github.com/TranceMeli/MinimalDjangoVue",
+      "demo": null,
+      "de": {
+        "subtitle": "Minimaler Full-Stack-Aufbau mit Django REST Framework und Vue 3",
+        "highlights": [
+          "Sticky Navbar mit vier Seiten (Home, About, Projects, Contact)",
+          "Jede Seite ist mit einem eigenen API-Endpunkt verbunden"
+        ]
+      },
+      "en": {
+        "subtitle": "Minimal full-stack setup with a Django REST Framework backend and a Vue 3 frontend",
+        "highlights": [
+          "Sticky navbar with four pages (Home, About, Projects, Contact)",
+          "Each page is connected to its own API endpoint"
+        ]
+      }
+    },
+    {
+      "id": "python-learning-book",
+      "title": "Python Learning Book",
+      "category": "learning",
+      "tech": [
+        "Python",
+        "Jupyter"
+      ],
+      "repo": "https://github.com/TranceMeli/PythonLearningBook",
+      "demo": null,
+      "screenshots": [
+        "https://github.com/user-attachments/assets/ce11e4c5-198e-42c5-97bf-abe75ef64145"
+      ],
+      "de": {
+        "subtitle": "Notizen, Beispiele und Übungen zum Python-Lernen als Jupyter-Notebooks",
+        "highlights": [
+          "Grundlagen: Syntax, Variablen, Datentypen, Strings, Operatoren und Collections",
+          "Lauffähige Beispiele mit Erklärungen"
+        ]
+      },
+      "en": {
+        "subtitle": "Python learning notes, examples and exercises as Jupyter notebooks",
+        "highlights": [
+          "Fundamentals: syntax, variables, data types, strings, operators and collections",
+          "Runnable examples with explanations"
+        ]
+      }
+    },
+    {
+      "id": "calculator",
+      "title": "Calculator",
+      "category": "learning",
+      "tech": [
+        "C#"
+      ],
+      "repo": "https://github.com/TranceMeli/Calculator",
+      "demo": null,
+      "de": {
+        "subtitle": "Einfacher Taschenrechner als C#-Lernprojekt",
+        "highlights": []
+      },
+      "en": {
+        "subtitle": "Simple calculator as a C# learning project",
+        "highlights": []
+      }
+    },
+    {
+      "id": "guess-number",
+      "title": "Guess the Number",
+      "category": "learning",
+      "tech": [
+        "C#"
+      ],
+      "repo": "https://github.com/TranceMeli/GuessNumber",
+      "demo": null,
+      "de": {
+        "subtitle": "Zahlenraten als C#-Lernprojekt",
+        "highlights": []
+      },
+      "en": {
+        "subtitle": "Number guessing game as a C# learning project",
+        "highlights": []
+      }
+    },
+    {
+      "id": "rock-paper-scissors",
+      "title": "Rock Paper Scissors",
+      "category": "learning",
+      "tech": [
+        "C#"
+      ],
+      "repo": "https://github.com/TranceMeli/RockPaperScissors",
+      "demo": null,
+      "de": {
+        "subtitle": "Schere, Stein, Papier als C#-Lernprojekt",
+        "highlights": []
+      },
+      "en": {
+        "subtitle": "Rock paper scissors as a C# learning project",
+        "highlights": []
+      }
+    }
+  ]
+}

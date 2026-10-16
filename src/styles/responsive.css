@@ -1,0 +1,10 @@
+/* ---------- Mobil ---------- */
+@media (max-width: 760px) {
+  .shell {
+    grid-template-columns: 1fr;
+  }
+
+  .page {
+    padding: 25px;
+  }
+}
