@@ -233,9 +233,37 @@
 /* ---------- Startseite ---------- */
 .page.home {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 32px;
   text-align: center;
+}
+
+/* Willkommensbild (src/assets/home/welcome.*) oder Platzhalter */
+.home-image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: min(100%, 800px);
+  max-height: 600px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px #0000001a;
+}
+
+.home-placeholder {
+  display: grid;
+  place-items: center;
+  width: 260px;
+  height: 260px;
+  max-width: 100%;
+  border: 3px dashed var(--accent);
+  border-radius: 12px;
+  background: var(--cyan-50);
+  color: var(--cyan-700);
+  font-size: 72px;
+  font-weight: 800;
 }
 
 .home h1 {
@@ -299,9 +327,9 @@
 
 .project-head {
   display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 4px 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
   margin-bottom: 4px;
 }
 

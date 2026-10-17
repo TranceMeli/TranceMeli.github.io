@@ -24,7 +24,8 @@ export default {
     "cta": "Interesse geweckt? Dann scheuen Sie sich nicht, mit mir in Kontakt zu treten."
   },
   "home": {
-    "title": "Hallo und Willkommen"
+    "title": "Hallo und Willkommen",
+    "imageAlt": "Handgeschriebenes Zitat mit Bleistift: „Programming is like painting, except the paint never dries!“ – Unknown"
   },
   "letter": {
     "title": "Allgemeines Anschreiben",

@@ -128,6 +128,9 @@
       "repo": "https://github.com/TranceMeli/ApplicationTracker",
       "demo": null,
       "status": "wip",
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/screenshot-application-tracker.png"
+      ],
       "de": {
         "subtitle": "Webanwendung zur Verwaltung von Bewerbungen von der ersten Kontaktaufnahme bis zur Antwort",
         "highlights": [

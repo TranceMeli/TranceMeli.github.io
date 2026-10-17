@@ -24,7 +24,8 @@ export default {
     "cta": "Interested? Then don’t hesitate to get in touch."
   },
   "home": {
-    "title": "Hello and welcome"
+    "title": "Hello and welcome",
+    "imageAlt": "Pencil-written quote: “Programming is like painting, except the paint never dries!” – Unknown"
   },
   "letter": {
     "title": "General Cover Letter",
