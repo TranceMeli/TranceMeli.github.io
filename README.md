@@ -40,11 +40,15 @@ src/
   content/de.js, en.js     alle Texte (Deutsch / Englisch)
   content/shared.js        Links (GitHub, LinkedIn)
   data/projects.json       Kategorien + Projekte (Projekte-Seite; Lebenslauf: nur "featured")
+  assets/thumbs/           Screenshot-Vorschauen (WebP), Name: <projekt-id>-<nr>.webp
+scripts/make_thumbnails.py Erzeugt die Vorschauen aus den Screenshot-URLs
+scripts/strip_metadata.py   Entfernt Metadaten (EXIF, XMP, Herkunftsnachweise) aus den Bildern, verlustfrei
   components/              wiederverwendbare Bausteine
   views/                   eine Datei pro Seite
   styles/                  Farben, Schrift, Layout, Seiten
   assets/fonts/            JetBrains Mono (SIL OFL), lokal eingebunden
-  assets/certificates/     Zeugnis-Bild (ihk-zeugnis.jpg)
+  assets/home/             Willkommensbild (welcome.jpg), solange leer: Platzhalter
+  assets/certificates/     Zeugnis-Bilder (ihk-zeugnis.jpg, lutz-grub-zertifikat.jpg)
 ```
 
 ## Inhalte ändern / Edit content
@@ -52,8 +56,11 @@ src/
 | Was                          | Wo                                                         |
 | ---------------------------- | ---------------------------------------------------------- |
 | Anschreiben, Lebenslauf, FAQ | `src/content/de.js` und `src/content/en.js`                |
-| Projekte (DE/EN)             | `src/data/projects.json` – pro Projekt `category`, `tech`, `repo`, `demo`, `status` (`"wip"`), `screenshots` (Liste von URLs), `featured` (erscheint im Lebenslauf) |
-| Zeugnis                      | Bild in `src/assets/certificates/` ersetzen (`ihk-zeugnis.*`) |
+| Projekte (DE/EN)             | `src/data/projects.json` – pro Projekt `category`, `tech`, `repo`, `demo`, `status` (`"wip"`), `screenshots` (Liste von URLs), `featured` + `cvOrder` (erscheint im Lebenslauf, Reihenfolge) |
+| Screenshots                  | URLs in `projects.json` unter `screenshots`; danach `python scripts/make_thumbnails.py` ausführen (siehe Skript) |
+| Willkommensbild              | Datei `welcome.jpg` (oder .png/.webp/.avif/.svg/.gif) in `src/assets/home/` ablegen, ersetzt den Platzhalter automatisch |
+| Bilder bereinigen            | `python scripts/strip_metadata.py` (Prüfen ohne Ändern: `--check`) – vor dem Commit ausführen, wenn neue Bilder dazukommen |
+| Zeugnisse                    | Bild in `src/assets/certificates/` ablegen und in `content/de.js` + `en.js` unter `certificates.items` eintragen (`id` = Dateiname ohne Endung) |
 | Links (GitHub, LinkedIn)     | `src/content/shared.js`                                    |
 | Farben                       | `src/styles/variables.css` (Palette: [ColorPalette](https://github.com/TranceMeli/ColorPalette)) |
 | Neue Seite                   | View in `src/views/`, Eintrag in `src/pages.js`, Titel in `content/de.js` + `en.js` unter `nav` |

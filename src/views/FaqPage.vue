@@ -24,5 +24,18 @@ const { t } = useContent()
         <p v-for="(paragraph, j) in item.a" :key="j"><RichText :text="paragraph" /></p>
       </div>
     </details>
+
+    <!-- Zweite Fragenrunde (Fragen 19–36) -->
+    <section v-if="t.faq.more" class="faq-more">
+      <h2>{{ t.faq.more.title }}</h2>
+      <p class="faq-more-intro">{{ t.faq.more.intro }}</p>
+
+      <details v-for="(item, i) in t.faq.more.items" :key="`more-${i}`">
+        <summary>{{ item.q }}</summary>
+        <div class="answer">
+          <p v-for="(paragraph, j) in item.a" :key="j"><RichText :text="paragraph" /></p>
+        </div>
+      </details>
+    </section>
   </article>
 </template>

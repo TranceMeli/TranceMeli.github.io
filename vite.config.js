@@ -7,4 +7,9 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   base: '/',
   plugins: [vue()],
+  build: {
+    // Auch kleine Bilder (Screenshot-Vorschauen) als eigene Dateien ausliefern,
+    // damit sie lazy nachgeladen werden und das JavaScript klein bleibt.
+    assetsInlineLimit: 0,
+  },
 })

@@ -13,16 +13,19 @@ const { lang, t } = useContent()
 // Die Projekte im Lebenslauf kommen aus derselben Datei wie die Projekte-Seite
 // (src/data/projects.json) – hier nur die mit "featured": true.
 const projectEntries = computed(() =>
-  projectData.projects.filter((project) => project.featured).map((project) => {
-    const text = project[lang.value] ?? project.de
-    return {
-      id: project.id,
-      title: project.title,
-      meta: `*${text.subtitle}*`,
-      tech: project.tech.join(' · '),
-      bullets: text.highlights,
-    }
-  }),
+  projectData.projects
+    .filter((project) => project.featured)
+    .sort((a, b) => (a.cvOrder ?? 99) - (b.cvOrder ?? 99))
+    .map((project) => {
+      const text = project[lang.value] ?? project.de
+      return {
+        id: project.id,
+        title: project.title,
+        meta: `*${text.subtitle}*`,
+        tech: project.tech.join(' · '),
+        bullets: text.highlights,
+      }
+    }),
 )
 </script>
 

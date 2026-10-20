@@ -379,3 +379,24 @@
 .thumb:focus-visible {
   border-color: var(--accent);
 }
+
+/* ---------- FAQ: zweite Fragenrunde ---------- */
+.faq-more {
+  max-width: 78ch;
+  margin-top: 40px;
+}
+
+.faq-more h2 {
+  margin: 0 0 8px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--accent);
+  color: var(--cyan-700);
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.faq-more-intro {
+  margin: 0 0 16px;
+  color: var(--text-muted);
+}

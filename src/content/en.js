@@ -311,7 +311,122 @@ export default {
           "I am also interested in building and managing online communities. These interests complement my technical work by giving me different perspectives on design, communication, and digital products."
         ]
       }
-    ]
+    ],
+    "more": {
+      "title": "More questions and answers",
+      "intro": "This collection describes my way of working, my motivation and my learning experiences so far. The answers are deliberately written in a personal voice.",
+      "items": [
+        {
+          "q": "19. Why should we choose you, even though you are still at the start of your career?",
+          "a": [
+            "I am curious, open-minded and enjoy learning new things. Through my own projects I have shown that I can teach myself new topics and expand my skills independently. At the same time, good collaboration matters to me. I do not just want to complete my tasks, I also want to get to know my colleagues, contribute to the team and achieve something together."
+          ]
+        },
+        {
+          "q": "20. What do you expect from your first job as a software developer?",
+          "a": [
+            "I want to learn a lot, gain practical work experience and grow both professionally and personally. I am also looking forward to meeting new people, gaining experience in a team and finding my place in working life as a developer."
+          ]
+        },
+        {
+          "q": "21. How would you know after one year that you have developed well professionally?",
+          "a": [
+            "I would know it because I understand better how professional software is built. I want to become more confident in structuring applications sensibly, testing them systematically and learning the path all the way to deployment. My goal would be to take on tasks more and more independently while understanding why certain approaches make sense."
+          ]
+        },
+        {
+          "q": "22. What matters more to you than salary when choosing an employer?",
+          "a": [
+            "Opportunities for further training, appreciation and a friendly working atmosphere matter to me. I want to be taken seriously as a person and to work in an environment where people support each other and learn from one another. To me, a good workplace is not only about professional growth, but also about enjoying working with the people around you."
+          ]
+        },
+        {
+          "q": "23. How do you handle a task you initially know little about?",
+          "a": [
+            "I start by researching on my own online, for example through Google and Reddit, and I use AI as support. I try to find different pieces of information and approaches that I can then try out. That is how I work my way into new topics step by step."
+          ]
+        },
+        {
+          "q": "24. How do you prepare before you start programming a new feature?",
+          "a": [
+            "I am generally more of a trial-and-error person and like to learn by trying things out. For larger projects where frontend, backend and database work together, however, it makes sense to plan first. I like to start with a brainstorm, think about which functions are needed and weigh which tech stack fits the project best. I also put myself in the position of the future users to consider how the application should be designed and how it should be used."
+          ]
+        },
+        {
+          "q": "25. What do you do if you cannot find a solution to a technical problem despite many attempts?",
+          "a": [
+            "First I try to solve the problem myself and test different approaches. If I do not get anywhere after a while, I ask colleagues for support. It is important to me to show initiative first, but also to recognize when talking to others makes more sense than searching alone."
+          ]
+        },
+        {
+          "q": "26. How do you decide whether to implement a quick solution or fundamentally improve the code?",
+          "a": [
+            "For me that depends on the project and its intended use. For a smaller application, a simple solution can be enough. For software that will be used and developed over the long term, I would pay more attention to making the code understandable, maintainable and sensibly structured."
+          ]
+        },
+        {
+          "q": "27. What would you do differently today in one of your previous projects?",
+          "a": [
+            "In my project JobMatch, I would invest more time in research and planning today before starting the implementation. Looking back, I did not examine enough which solutions already exist on the market and which needs potential users really have.",
+            "I focused heavily on the technical implementation. Today I would research earlier, compare existing offerings, question requirements more closely and plan the application more from the perspective of future users. I learned from this that it is not only about building working software, but also about understanding a real problem and finding a suitable solution for it."
+          ]
+        },
+        {
+          "q": "28. How do you make sure you can still understand and further develop your own code later on?",
+          "a": [
+            "I keep going back to the fundamentals, reading up and trying to truly understand how things fit together. It is important to me not to simply copy a solution but to be able to understand how it works. This understanding helps me find errors and adapt my code in a targeted way later."
+          ]
+        },
+        {
+          "q": "29. How do you handle it when you disagree with a colleague on a technical decision?",
+          "a": [
+            "I would first try to understand the different viewpoints. If we cannot agree, I would, where appropriate, ask other colleagues for their opinions and check whether the decision can be judged using data, statistics or other comprehensible criteria. What matters to me is finding a sensible solution, not necessarily being proven right."
+          ]
+        },
+        {
+          "q": "30. How do you explain a technical problem to someone who is not familiar with programming?",
+          "a": [
+            "I try to connect the technical problem to a situation from everyday life. A familiar example can help make an abstract relationship easier to understand. I would avoid technical terms as much as possible and focus on what the problem means and how it can be solved."
+          ]
+        },
+        {
+          "q": "31. How do you react when you notice that you misunderstood a task or requirement?",
+          "a": [
+            "My first thought would probably be: “Oops, darn.” Then I would take a breath, look at what went wrong and try to fix it. It would be important to me to learn from the mistake and to ask more precisely next time when a requirement is unclear."
+          ]
+        },
+        {
+          "q": "32. When do you decide it makes more sense to ask for help than to keep looking for a solution yourself?",
+          "a": [
+            "When I fail repeatedly and my approaches so far are getting me nowhere, it is time to ask for help. I like to try to understand a problem myself first. But when I notice that I am going around in circles, another perspective can help me move forward faster."
+          ]
+        },
+        {
+          "q": "33. How would you proceed if your data contradicts an assumption you had beforehand?",
+          "a": [
+            "I would first check further sources and possible explanations. Sometimes you have a certain idea of how things typically work, but the data shows something different. I find the difference between perceived truth and actual results especially interesting. That is why I would question my original assumption instead of interpreting the data only in a way that fits my idea."
+          ]
+        },
+        {
+          "q": "34. What matters more to you when presenting data: as much information as possible or a clear core message?",
+          "a": [
+            "It is important to me that the presentation stays simple and understandable. A chart should speak for itself as far as possible, without people having to read long texts to understand it. That is why I would focus on the most important information and avoid unnecessary details."
+          ]
+        },
+        {
+          "q": "35. How do you check whether code suggested by an AI is actually correct and sensible?",
+          "a": [
+            "I try out the suggested code and observe whether it delivers the desired result. If something does not work, I adjust the approach and test again. Through this trial-and-error process I find out whether the solution works in my specific project."
+          ]
+        },
+        {
+          "q": "36. Which tasks would you rather solve yourself, and for which would you deliberately use AI support?",
+          "a": [
+            "For creative tasks such as choosing a color palette or designing a user interface, I want to contribute my own ideas. AI can serve as a source of inspiration for further ideas or alternative approaches. But I want to consciously connect the design decisions with my own vision."
+          ]
+        }
+      ]
+    }
   },
   "certificates": {
     "title": "Certificates",

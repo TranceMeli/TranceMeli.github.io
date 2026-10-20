@@ -311,7 +311,122 @@ export default {
           "Außerdem interessiere ich mich für die Gestaltung und Betreuung von Online-Communities. Diese Interessen ergänzen meine technische Arbeit, weil sie mir andere Perspektiven auf Gestaltung, Kommunikation und digitale Produkte geben."
         ]
       }
-    ]
+    ],
+    "more": {
+      "title": "Weitere Fragen und Antworten",
+      "intro": "Diese Sammlung beschreibt meine Arbeitsweise, meine Motivation und meine bisherigen Lernerfahrungen. Die Antworten sind bewusst persönlich formuliert.",
+      "items": [
+        {
+          "q": "19. Warum sollten wir uns gerade für dich entscheiden, obwohl du noch Berufseinsteigerin bist?",
+          "a": [
+            "Ich bin neugierig, aufgeschlossen und lerne gerne Neues. Durch meine eigenen Projekte habe ich gezeigt, dass ich mich selbstständig in neue Themen einarbeiten und meine Kenntnisse eigenständig erweitern kann. Gleichzeitig ist mir ein gutes Miteinander wichtig. Ich möchte nicht nur meine Aufgaben erledigen, sondern auch meine Kolleginnen und Kollegen kennenlernen, mich ins Team einbringen und gemeinsam etwas erreichen."
+          ]
+        },
+        {
+          "q": "20. Was erwartest du von deiner ersten Stelle als Softwareentwicklerin?",
+          "a": [
+            "Ich möchte viel Neues lernen, praktische Berufserfahrung sammeln und mich sowohl fachlich als auch persönlich weiterentwickeln. Gleichzeitig freue ich mich darauf, neue Menschen kennenzulernen, Erfahrungen im Team zu sammeln und meinen Platz im Berufsleben als Entwicklerin zu finden."
+          ]
+        },
+        {
+          "q": "21. Woran würdest du nach einem Jahr erkennen, dass du dich beruflich gut entwickelt hast?",
+          "a": [
+            "Ich würde daran erkennen, dass ich besser verstehe, wie professionelle Software aufgebaut wird. Ich möchte sicherer darin werden, Anwendungen sinnvoll zu strukturieren, sie systematisch zu testen und den Weg bis zum Deployment kennenzulernen. Mein Ziel wäre, Aufgaben zunehmend selbstständiger übernehmen zu können und dabei zu verstehen, warum bestimmte Vorgehensweisen sinnvoll sind."
+          ]
+        },
+        {
+          "q": "22. Was ist dir bei einem Arbeitgeber wichtiger als das Gehalt?",
+          "a": [
+            "Mir sind Weiterbildungsmöglichkeiten, Wertschätzung und ein freundschaftliches Miteinander wichtig. Ich möchte als Mensch ernst genommen werden und in einem Umfeld arbeiten, in dem man sich gegenseitig unterstützt und voneinander lernen kann. Für mich gehört zu einem guten Arbeitsplatz nicht nur die fachliche Entwicklung, sondern auch, dass man gerne mit den Menschen zusammenarbeitet."
+          ]
+        },
+        {
+          "q": "23. Wie gehst du damit um, wenn du eine Aufgabe übernehmen sollst, von der du zunächst wenig Ahnung hast?",
+          "a": [
+            "Ich recherchiere zunächst selbstständig im Internet, beispielsweise über Google und Reddit, und nutze KI als Unterstützung. Dabei versuche ich, verschiedene Informationen und Lösungsansätze zu finden, die ich anschließend ausprobieren kann. So arbeite ich mich Schritt für Schritt in neue Themen ein."
+          ]
+        },
+        {
+          "q": "24. Wie gehst du vor, bevor du mit dem Programmieren einer neuen Funktion beginnst?",
+          "a": [
+            "Ich bin grundsätzlich eher der Trial-and-Error-Typ und lerne gerne, indem ich Dinge ausprobiere. Bei größeren Projekten, bei denen Frontend, Backend und Datenbank zusammenspielen, ist es jedoch sinnvoll, zuerst zu planen. Ich beginne gerne mit einem Brainstorming, überlege mir, welche Funktionen benötigt werden, und wäge ab, welcher Tech-Stack am besten zum Projekt passt. Dabei versetze ich mich auch in die Perspektive der späteren Nutzerinnen und Nutzer, um zu überlegen, wie die Anwendung sinnvoll gestaltet und bedienbar sein sollte."
+          ]
+        },
+        {
+          "q": "25. Was machst du, wenn du trotz vieler Versuche keine Lösung für ein technisches Problem findest?",
+          "a": [
+            "Zunächst versuche ich, das Problem selbst zu lösen und verschiedene Ansätze auszuprobieren. Wenn ich nach einiger Zeit nicht weiterkomme, frage ich Kolleginnen oder Kollegen um Unterstützung. Mir ist wichtig, zunächst Eigeninitiative zu zeigen, aber auch zu erkennen, wann der Austausch mit anderen sinnvoller ist, als allein weiterzusuchen."
+          ]
+        },
+        {
+          "q": "26. Wie entscheidest du, ob du eine schnelle Lösung umsetzt oder den Code grundlegend verbessern solltest?",
+          "a": [
+            "Das hängt für mich vom jeweiligen Projekt und dem späteren Einsatzzweck ab. Bei einer kleineren Anwendung kann eine einfache Lösung ausreichend sein. Bei Software, die langfristig genutzt und weiterentwickelt werden soll, würde ich stärker darauf achten, dass der Code verständlich, wartbar und sinnvoll strukturiert ist."
+          ]
+        },
+        {
+          "q": "27. Was würdest du an einem deiner bisherigen Projekte heute anders machen?",
+          "a": [
+            "Bei meinem Projekt JobMatch würde ich heute mehr Zeit in Recherche und Planung investieren, bevor ich mit der Umsetzung beginne. Rückblickend habe ich zu wenig untersucht, welche Lösungen es auf dem Markt bereits gibt und welche Bedürfnisse potenzielle Nutzerinnen und Nutzer tatsächlich haben.",
+            "Ich habe mich stark auf die technische Umsetzung konzentriert. Heute würde ich früher recherchieren, bestehende Angebote vergleichen, Anforderungen genauer hinterfragen und die Anwendung stärker aus Sicht der späteren Nutzer planen. Daraus habe ich gelernt, dass es nicht nur darum geht, eine funktionierende Software zu bauen, sondern auch darum, ein tatsächliches Problem zu verstehen und eine passende Lösung dafür zu finden."
+          ]
+        },
+        {
+          "q": "28. Wie stellst du sicher, dass du deinen eigenen Code auch später noch verstehst und weiterentwickeln kannst?",
+          "a": [
+            "Ich gehe immer wieder auf die Grundlagen zurück, lese nach und versuche, die Zusammenhänge wirklich zu verstehen. Mir ist wichtig, nicht einfach eine Lösung zu übernehmen, sondern nachvollziehen zu können, wie sie funktioniert. Dieses Verständnis hilft mir dabei, Fehler zu finden und meinen Code später gezielt anzupassen."
+          ]
+        },
+        {
+          "q": "29. Wie gehst du damit um, wenn du mit einem Kollegen oder einer Kollegin bei einer technischen Entscheidung nicht einer Meinung bist?",
+          "a": [
+            "Ich würde zunächst versuchen, die unterschiedlichen Sichtweisen zu verstehen. Wenn wir uns nicht einig sind, hole ich gegebenenfalls weitere Meinungen von Kolleginnen und Kollegen ein und schaue, ob sich die Entscheidung anhand von Daten, Statistiken oder anderen nachvollziehbaren Kriterien beurteilen lässt. Mir geht es darum, eine sinnvolle Lösung zu finden, und nicht unbedingt darum, mit meiner eigenen Meinung recht zu behalten."
+          ]
+        },
+        {
+          "q": "30. Wie erklärst du ein technisches Problem jemandem, der sich nicht mit Programmierung auskennt?",
+          "a": [
+            "Ich versuche, das technische Problem mit einer Situation aus dem Alltag zu verbinden. Ein bekanntes Beispiel kann helfen, einen abstrakten Zusammenhang verständlicher zu machen. Dabei würde ich möglichst auf Fachbegriffe verzichten und mich darauf konzentrieren, was das Problem bedeutet und wie es sich lösen lässt."
+          ]
+        },
+        {
+          "q": "31. Wie reagierst du, wenn du bemerkst, dass du eine Aufgabe oder Anforderung falsch verstanden hast?",
+          "a": [
+            "Mein erster Gedanke wäre wahrscheinlich erst einmal: „Oops, Mist.“ Dann würde ich durchatmen, mir anschauen, was schiefgelaufen ist, und versuchen, es zu korrigieren. Wichtig wäre mir, aus dem Fehler zu lernen und beim nächsten Mal genauer nachzufragen, wenn eine Anforderung unklar ist."
+          ]
+        },
+        {
+          "q": "32. Wann entscheidest du, dass es sinnvoller ist, um Hilfe zu bitten, statt weiter selbst nach einer Lösung zu suchen?",
+          "a": [
+            "Wenn ich wiederholt scheitere und mit meinen bisherigen Lösungsansätzen nicht weiterkomme, ist es für mich Zeit, um Hilfe zu bitten. Ich versuche gerne zunächst, ein Problem selbst zu verstehen. Wenn ich aber merke, dass ich mich im Kreis drehe, kann eine andere Perspektive dabei helfen, schneller weiterzukommen."
+          ]
+        },
+        {
+          "q": "33. Wie würdest du vorgehen, wenn deine Daten einer Vermutung widersprechen, die du vorher hattest?",
+          "a": [
+            "Ich würde zunächst weitere Quellen und mögliche Erklärungen prüfen. Manchmal hat man eine bestimmte Vorstellung davon, wie Dinge typischerweise ablaufen, aber die Daten zeigen etwas anderes. Ich finde gerade den Unterschied zwischen gefühlter Wahrheit und tatsächlichen Ergebnissen interessant. Deshalb würde ich meine ursprüngliche Annahme hinterfragen, statt die Daten nur so zu interpretieren, dass sie zu meiner Vorstellung passen."
+          ]
+        },
+        {
+          "q": "34. Was ist dir bei der Darstellung von Daten wichtiger: möglichst viele Informationen oder eine verständliche Kernaussage?",
+          "a": [
+            "Mir ist wichtig, dass die Darstellung einfach und verständlich bleibt. Ein Diagramm sollte möglichst für sich sprechen, ohne dass man erst lange Texte lesen muss, um es zu verstehen. Deshalb würde ich mich auf die wichtigsten Informationen konzentrieren und unnötige Details vermeiden."
+          ]
+        },
+        {
+          "q": "35. Wie überprüfst du, ob ein von einer KI vorgeschlagener Code tatsächlich korrekt und sinnvoll ist?",
+          "a": [
+            "Ich probiere den vorgeschlagenen Code aus und beobachte, ob er das gewünschte Ergebnis liefert. Wenn etwas nicht funktioniert, passe ich den Ansatz an und teste erneut. Durch dieses Trial-and-Error-Verfahren finde ich heraus, ob die Lösung in meinem konkreten Projekt funktioniert."
+          ]
+        },
+        {
+          "q": "36. Welche Aufgaben würdest du lieber selbst lösen und bei welchen würdest du bewusst KI-Unterstützung nutzen?",
+          "a": [
+            "Bei kreativen Aufgaben wie der Auswahl einer Farbpalette oder der Gestaltung einer Benutzeroberfläche möchte ich meine eigenen Ideen einbringen. KI kann dabei als Inspirationsquelle für weitere Ideen oder alternative Ansätze dienen. Die gestalterischen Entscheidungen möchte ich aber bewusst mit meinen eigenen Vorstellungen verbinden."
+          ]
+        }
+      ]
+    }
   },
   "certificates": {
     "title": "Zeugnisse",

@@ -68,7 +68,8 @@
           "Improved the user interface and user experience",
           "Continuous development after successfully completing the IHK exam"
         ]
-      }
+      },
+      "cvOrder": 1
     },
     {
       "id": "jobmatch",
@@ -87,12 +88,12 @@
       "demo": null,
       "status": "wip",
       "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/profile_screen_user.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/profile_screen_company.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/questions_screen_user.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/questions_screen_company.jpeg",
         "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/match_screen_1.jpeg",
         "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/match_screen_2.jpeg",
-        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/profile_screen_company.jpeg",
-        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/profile_screen_user.jpeg",
-        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/questions_screen_company.jpeg",
-        "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/questions_screen_user.jpeg",
         "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/match_screen_3.jpeg",
         "https://raw.githubusercontent.com/TranceMeli/JobMatch/HEAD/frontend/src/assets/screenshots/match_screen_4.jpeg"
       ],
@@ -116,12 +117,54 @@
       }
     },
     {
+      "id": "justone",
+      "title": "JustOne",
+      "category": "webapps",
+      "tech": [
+        "ASP.NET Core 10",
+        "Entity Framework Core",
+        "SQLite",
+        "JWT",
+        "Vue 3",
+        "Vite",
+        "Pinia"
+      ],
+      "repo": "https://github.com/TranceMeli/JustOne",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/screenshot.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/comments-screenshot.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/comments-landscape-screenshot.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/login-screenshot.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/mobile-screenshot.jpeg"
+      ],
+      "de": {
+        "subtitle": "Soziales Netzwerk mit nur einer Regel: ein Foto pro Tag, nichts weiter",
+        "highlights": [
+          "Monatsübersicht als Kalender, gepostet werden kann nur am aktuellen Tag",
+          "Ein Beitrag pro Tag wird serverseitig erzwungen, nicht nur im Frontend",
+          "JWT mit Refresh-Token-Rotation und Erkennung von Token-Diebstahl",
+          "Rollen (Admin, Manager, User) mit Moderation, dazu Kommentare, Gästebuch und Emojis"
+        ]
+      },
+      "en": {
+        "subtitle": "Social network with a single rule: one photo per day, nothing more",
+        "highlights": [
+          "Monthly overview as a calendar, posting is only possible for the current day",
+          "One post per day is enforced server-side, not just in the frontend",
+          "JWT with refresh token rotation and token theft detection",
+          "Roles (Admin, Manager, User) with moderation, plus comments, guestbook and emojis"
+        ]
+      }
+    },
+    {
       "id": "application-tracker",
       "title": "Application Tracker",
       "category": "webapps",
       "tech": [
         "Vue 3",
         "Vite",
+        "Leaflet",
         "Django REST Framework",
         "SQLite"
       ],
@@ -129,12 +172,15 @@
       "demo": null,
       "status": "wip",
       "screenshots": [
-        "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/screenshot-application-tracker.png"
+        "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-list.jpg",
+        "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-cards.jpg",
+        "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-map.jpg"
       ],
       "de": {
         "subtitle": "Webanwendung zur Verwaltung von Bewerbungen von der ersten Kontaktaufnahme bis zur Antwort",
         "highlights": [
           "Status-Workflow, Favoriten, Live-Suche und Filter mit Zählern",
+          "Listen-, Kachel- und Kartenansicht (Leaflet) mit ungefähren Entfernungen zu den Firmenstandorten",
           "Konfigurierbare Felder: Tabellenspalten und Formularfelder frei wählbar",
           "Import von Firmenlisten (CSV, XLSX, ODS, JSON) mit Vorschau sowie CSV-Export",
           "Dokumente pro Bewerbung, Oberfläche auf Deutsch und Englisch"
@@ -144,6 +190,7 @@
         "subtitle": "Web app for tracking job applications from first contact to the final answer",
         "highlights": [
           "Status workflow, favorites, live search and filters with counters",
+          "List, card and map views (Leaflet) with approximate distances to company locations",
           "Configurable fields: table columns and form fields can be chosen freely",
           "Company list import (CSV, XLSX, ODS, JSON) with preview, plus CSV export",
           "Document attachments per application, German and English interface"
@@ -182,7 +229,8 @@
           "Built an extensible architecture for different chatbot personalities",
           "Developed an interactive user interface for real-time communication"
         ]
-      }
+      },
+      "cvOrder": 3
     },
     {
       "id": "vue-django-jwt-auth",
@@ -417,38 +465,39 @@
     {
       "id": "task-counter",
       "title": "Task Counter",
-      "category": "frontend",
+      "category": "webapps",
       "tech": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "LocalStorage",
+        "Vue 3",
+        "Vite",
+        "Django REST Framework",
+        "SQLite",
         "Canvas"
       ],
       "repo": "https://github.com/TranceMeli/TaskCounter",
       "demo": null,
       "featured": true,
       "screenshots": [
-        "https://github.com/user-attachments/assets/f4e6b454-1845-4a67-b437-9375a32270e4"
+        "https://raw.githubusercontent.com/TranceMeli/TaskCounter/HEAD/screenshots/taskcounter-dashboard.jpeg"
       ],
       "de": {
         "subtitle": "Webanwendung zur Verwaltung und Zählung von Aufgaben",
         "highlights": [
-          "Entwicklung einer interaktiven Webanwendung mit HTML, CSS und JavaScript",
-          "Umsetzung einer Listenverwaltung mit CRUD-Funktionen und LocalStorage",
-          "Integration einer Canvas-Zeichenfläche zur visuellen Erfassung von Zählvorgängen",
-          "Responsive Benutzeroberfläche mit Fokus auf Benutzerfreundlichkeit"
+          "Interaktiver Zähler: per Buttons oder als Strichliste auf einer Canvas-Zeichenfläche",
+          "Aufgabenlisten anlegen, umbenennen und löschen, Aufgaben speichern und bearbeiten, jede mit eigenem Zählerstand",
+          "Frei wählbare Einheiten, als Standard pro Liste oder einzeln pro Aufgabe",
+          "Vue-3-Frontend mit Django-REST-Backend und SQLite, responsives Dashboard mit Übersichtsstatistik"
         ]
       },
       "en": {
         "subtitle": "Web application for managing and counting tasks",
         "highlights": [
-          "Developed an interactive web application with HTML, CSS, and JavaScript",
-          "Implemented list management with CRUD functions and LocalStorage",
-          "Integrated a canvas drawing area for visually recording counts",
-          "Responsive user interface with a focus on usability"
+          "Interactive counter: use the buttons or draw tally marks on a canvas",
+          "Create, rename and delete task lists, save and edit tasks, each with its own count",
+          "Flexible units, as a default per list or individually per task",
+          "Vue 3 frontend with a Django REST backend and SQLite, responsive dashboard with overview statistics"
         ]
-      }
+      },
+      "cvOrder": 2
     },
     {
       "id": "theme-generator",
@@ -656,7 +705,7 @@
       "repo": "https://github.com/TranceMeli/Coffee",
       "demo": null,
       "screenshots": [
-        "https://github.com/user-attachments/assets/d0429b73-c0a3-4ab7-b56b-8b7fd491b972"
+        "https://github.com/user-attachments/assets/64b31d0f-0368-4600-9a53-2c40b074a67b"
       ],
       "de": {
         "subtitle": "Zufälliger Kaffee-Bildgenerator auf Basis der Coffee API",
@@ -795,6 +844,38 @@
           "Secure generation with Python's secrets module",
           "Password hidden by default, copy to clipboard",
           "Retro-inspired design"
+        ]
+      }
+    },
+    {
+      "id": "hangman-tui",
+      "title": "Hangman TUI",
+      "category": "desktop",
+      "tech": [
+        "C#",
+        ".NET 10",
+        "Spectre.Console",
+        "Gemini API"
+      ],
+      "repo": "https://github.com/TranceMeli/HangmanTUI",
+      "demo": null,
+      "screenshots": [
+        "https://github.com/user-attachments/assets/faba306f-402d-4e76-bcd4-c70a2e88857b"
+      ],
+      "de": {
+        "subtitle": "Hangman für die Konsole mit Spectre.Console-Oberfläche",
+        "highlights": [
+          "Wörter optional über die Google Gemini API erzeugt, der API-Schlüssel kommt aus der Konfiguration",
+          "Schwierigkeitsgrade und eine saubere Aufteilung in Spielogik, Oberfläche und Wort-Service",
+          "Generic Host mit Dependency Injection"
+        ]
+      },
+      "en": {
+        "subtitle": "Console Hangman game with a Spectre.Console interface",
+        "highlights": [
+          "Words optionally generated via the Google Gemini API, the API key is read from configuration",
+          "Difficulty levels and a clean split into game logic, UI and word service",
+          "Generic Host with dependency injection"
         ]
       }
     },
@@ -984,19 +1065,20 @@
         "Python",
         "pandas",
         "SQLite",
+        "Plotly Dash",
         "Matplotlib",
         "Seaborn",
         "Jupyter"
       ],
       "repo": "https://github.com/TranceMeli/Airline",
-      "demo": null,
+      "demo": "https://trancemeli.github.io/Airline/",
       "status": "wip",
       "de": {
         "subtitle": "Datenanalyse zur Stimmung in Tweets an große US-Fluggesellschaften",
         "highlights": [
           "14.485 Tweets zu sechs Airlines, gelabelt als positiv, neutral oder negativ",
           "Exploration, Bereinigung und Visualisierung mit Python, pandas und SQLite",
-          "Drei Notebooks: Exploration, Cleaning und Visualisierung"
+          "Interaktives Plotly-Dash-Dashboard, zusätzlich als statische Version auf GitHub Pages"
         ]
       },
       "en": {
@@ -1004,7 +1086,7 @@
         "highlights": [
           "14,485 tweets about six airlines, labeled positive, neutral or negative",
           "Exploration, cleaning and visualization with Python, pandas and SQLite",
-          "Three notebooks: exploration, cleaning and visualization"
+          "Interactive Plotly Dash dashboard, also available as a static version on GitHub Pages"
         ]
       }
     },
@@ -1021,6 +1103,9 @@
       ],
       "repo": "https://github.com/TranceMeli/CrocodileData",
       "demo": "https://crocodiledata-apprjoadszyne2saevozasw.streamlit.app/",
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/CrocodileData/HEAD/docs/dashboard.png"
+      ],
       "de": {
         "subtitle": "Interaktives Streamlit-Dashboard zum Global Crocodile Species Dataset",
         "highlights": [
