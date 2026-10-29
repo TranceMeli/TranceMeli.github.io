@@ -131,6 +131,7 @@
       ],
       "repo": "https://github.com/TranceMeli/JustOne",
       "demo": null,
+      "status": "wip",
       "screenshots": [
         "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/screenshot.jpeg",
         "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/comments-screenshot.jpeg",
@@ -194,6 +195,87 @@
           "Configurable fields: table columns and form fields can be chosen freely",
           "Company list import (CSV, XLSX, ODS, JSON) with preview, plus CSV export",
           "Document attachments per application, German and English interface"
+        ]
+      }
+    },
+    {
+      "id": "guidebuddy",
+      "title": "GuideBuddy",
+      "category": "webapps",
+      "tech": [
+        "Nuxt 4",
+        "Vue 3",
+        "TypeScript",
+        "Django REST Framework",
+        "SQLite",
+        "JWT"
+      ],
+      "repo": "https://github.com/TranceMeli/GuideBuddy",
+      "demo": null,
+      "status": "wip",
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/GuideBuddy/HEAD/docs/screenshots/home.png",
+        "https://raw.githubusercontent.com/TranceMeli/GuideBuddy/HEAD/docs/screenshots/builder.png",
+        "https://raw.githubusercontent.com/TranceMeli/GuideBuddy/HEAD/docs/screenshots/guide.png",
+        "https://raw.githubusercontent.com/TranceMeli/GuideBuddy/HEAD/docs/screenshots/comments.png",
+        "https://raw.githubusercontent.com/TranceMeli/GuideBuddy/HEAD/docs/screenshots/overview-dark.png"
+      ],
+      "de": {
+        "subtitle": "Wikipedia-artige Plattform für Anleitungen mit Baukasten im Design-Tool-Stil",
+        "highlights": [
+          "Anleitungen als Liste typisierter Elemente, die ein fester Standard-Look darstellt",
+          "Editor wie ein Design-Tool: 22 Werkzeuge, Eigenschaften-Panel und Live-Vorschau",
+          "Server-Side Rendering mit Nuxt, Volltextsuche, Kommentare, PDF-Download und Bearbeitungsverlauf",
+          "JWT in HttpOnly-Cookies mit Refresh-Token-Rotation, Rollen und Moderation"
+        ]
+      },
+      "en": {
+        "subtitle": "Wikipedia-style platform for guides with a design-tool style guide builder",
+        "highlights": [
+          "Guides are lists of typed elements rendered by one fixed template",
+          "Design-tool style editor: 22 tools, a properties panel and live preview",
+          "Server-side rendering with Nuxt, full-text search, comments, PDF download and edit history",
+          "JWT in HttpOnly cookies with refresh token rotation, roles and moderation"
+        ]
+      }
+    },
+    {
+      "id": "organizeme",
+      "title": "OrganizeMe",
+      "category": "webapps",
+      "tech": [
+        "Vue 3",
+        "Vite",
+        "Pinia",
+        "Express",
+        "SQLite"
+      ],
+      "repo": "https://github.com/TranceMeli/OrganizeMe",
+      "demo": null,
+      "status": "wip",
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/OrganizeMe/HEAD/docs/screenshots/notebook.png",
+        "https://raw.githubusercontent.com/TranceMeli/OrganizeMe/HEAD/docs/screenshots/notebook-dark.png",
+        "https://raw.githubusercontent.com/TranceMeli/OrganizeMe/HEAD/docs/screenshots/drawing.png",
+        "https://raw.githubusercontent.com/TranceMeli/OrganizeMe/HEAD/docs/screenshots/todos.png",
+        "https://raw.githubusercontent.com/TranceMeli/OrganizeMe/HEAD/docs/screenshots/code.png"
+      ],
+      "de": {
+        "subtitle": "Persönlicher Organizer als lokale Webanwendung mit vier Modulen",
+        "highlights": [
+          "Notizbuch (Rich Text oder Markdown mit Live-Vorschau), Zeichnen, Todos und Code-Snippets",
+          "Code-Snippets mit Monaco-Editor und Syntax-Highlighting",
+          "Automatisches Speichern pro Eintrag, Hell-/Dunkelmodus",
+          "Modulare Struktur: Komponenten, Services und Pinia-Stores je Modul"
+        ]
+      },
+      "en": {
+        "subtitle": "Personal organizer as a local web app with four modules",
+        "highlights": [
+          "Notebook (rich text or Markdown with live preview), drawing, todos and code snippets",
+          "Code snippets with the Monaco editor and syntax highlighting",
+          "Auto-save per item, light and dark mode",
+          "Modular structure: components, services and Pinia stores per module"
         ]
       }
     },
@@ -475,6 +557,7 @@
       ],
       "repo": "https://github.com/TranceMeli/TaskCounter",
       "demo": null,
+      "status": "wip",
       "featured": true,
       "screenshots": [
         "https://raw.githubusercontent.com/TranceMeli/TaskCounter/HEAD/screenshots/taskcounter-dashboard.jpeg"
