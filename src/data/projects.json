@@ -261,20 +261,22 @@
         "https://raw.githubusercontent.com/TranceMeli/OrganizeMe/HEAD/docs/screenshots/code.png"
       ],
       "de": {
-        "subtitle": "Persönlicher Organizer als lokale Webanwendung mit vier Modulen",
+        "subtitle": "Persönlicher Organizer als lokale Webanwendung im Look eines Leder-Tagebuchs",
         "highlights": [
-          "Notizbuch (Rich Text oder Markdown mit Live-Vorschau), Zeichnen, Todos und Code-Snippets",
-          "Code-Snippets mit Monaco-Editor und Syntax-Highlighting",
-          "Automatisches Speichern pro Eintrag, Hell-/Dunkelmodus",
+          "Vier Module als Registerreiter am Buchrand: Notizbuch (Rich Text oder Markdown mit Live-Vorschau), Zeichnen, Todos und Code-Snippets",
+          "Oberfläche wie ein aufgeschlagenes Tagebuch mit zwei Seiten und Lesezeichen; Buchgröße per Ecke verstellbar, Farben passen sich dem aktiven Werkzeug an",
+          "Tag-/Nachtmodus, Buchgröße, Werkzeug und Modus bleiben im Browser gespeichert",
+          "Automatisches Speichern pro Eintrag, Löschen mit Bestätigungsdialog in der App",
           "Modulare Struktur: Komponenten, Services und Pinia-Stores je Modul"
         ]
       },
       "en": {
-        "subtitle": "Personal organizer as a local web app with four modules",
+        "subtitle": "Personal organizer as a local web app, styled as a leather-bound diary",
         "highlights": [
-          "Notebook (rich text or Markdown with live preview), drawing, todos and code snippets",
-          "Code snippets with the Monaco editor and syntax highlighting",
-          "Auto-save per item, light and dark mode",
+          "Four modules as index tabs on the page edge: notebook (rich text or Markdown with live preview), drawing, todos and code snippets",
+          "Interface like an open diary with two pages and a ribbon bookmark; resizable book, colors follow the active tool",
+          "Day/night mode; book size, active tool and mode are remembered in the browser",
+          "Auto-save per item, in-app confirmation dialog before deleting",
           "Modular structure: components, services and Pinia stores per module"
         ]
       }
