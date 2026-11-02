@@ -282,6 +282,49 @@
       }
     },
     {
+      "id": "restaurant-website",
+      "title": "Hasenfutter",
+      "category": "webapps",
+      "tech": [
+        "Vue 3",
+        "Vite",
+        "Vue Router",
+        "Leaflet",
+        "Django REST Framework",
+        "SQLite"
+      ],
+      "repo": "https://github.com/TranceMeli/RestaurantWebsite",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/RestaurantWebsite/HEAD/docs/screenshots/startseite.png",
+        "https://raw.githubusercontent.com/TranceMeli/RestaurantWebsite/HEAD/docs/screenshots/ueber-das-restaurant.png",
+        "https://raw.githubusercontent.com/TranceMeli/RestaurantWebsite/HEAD/docs/screenshots/reservierung.png",
+        "https://raw.githubusercontent.com/TranceMeli/RestaurantWebsite/HEAD/docs/screenshots/speisekarte.png",
+        "https://raw.githubusercontent.com/TranceMeli/RestaurantWebsite/HEAD/docs/screenshots/standorte.png",
+        "https://raw.githubusercontent.com/TranceMeli/RestaurantWebsite/HEAD/docs/screenshots/mobil.png"
+      ],
+      "de": {
+        "subtitle": "Fiktive vegane Restaurant-Website mit Tischreservierung",
+        "highlights": [
+          "Startseite, Speisekarte mit Kategorie-Filter, Kontaktbereich sowie Impressum und Datenschutz",
+          "Standorte-Seite mit interaktiver Karte (Leaflet, OpenStreetMap)",
+          "Reservierungsformular mit Validierung im Frontend und erneuter Prüfung im Django-Backend, Fehler direkt am Feld",
+          "Datenschutzfreundlich: lokal eingebundene Schrift, keine Cookies, kein Tracking",
+          "Eigenes Logo, Farbsystem auf HSL-Basis, schrumpfender Header und responsives Layout mit Hamburger-Menü"
+        ]
+      },
+      "en": {
+        "subtitle": "Fictional vegan restaurant website with table reservations",
+        "highlights": [
+          "Home page, menu with category filter, contact section, plus imprint and privacy pages",
+          "Locations page with an interactive map (Leaflet, OpenStreetMap)",
+          "Reservation form with frontend validation and a second check in the Django backend, errors shown right at the field",
+          "Privacy-friendly: locally hosted font, no cookies, no tracking",
+          "Custom logo, HSL-based color system, shrinking header and responsive layout with hamburger menu"
+        ]
+      }
+    },
+    {
       "id": "sassybot",
       "title": "SassyBot",
       "category": "webapps",
@@ -429,16 +472,21 @@
         "GDScript"
       ],
       "repo": "https://github.com/TranceMeli/ZenJewel",
-      "demo": null,
+      "demo": "https://trancemeli.github.io/ZenJewel/",
       "status": "wip",
       "screenshots": [
-        "https://raw.githubusercontent.com/TranceMeli/ZenJewel/HEAD/images/zenjewel_screen.png"
+        "https://raw.githubusercontent.com/TranceMeli/ZenJewel/HEAD/images/zenjewel_screen.png",
+        "https://raw.githubusercontent.com/TranceMeli/ZenJewel/HEAD/images/screen_menu.png",
+        "https://raw.githubusercontent.com/TranceMeli/ZenJewel/HEAD/images/screen_pause.png",
+        "https://raw.githubusercontent.com/TranceMeli/ZenJewel/HEAD/images/screen_shop.png"
       ],
       "de": {
         "subtitle": "Entspanntes Match-3-Puzzlespiel mit Godot 4, ohne Timer und Leben",
         "highlights": [
           "Reiner Zen-Modus: kein Verlieren, kein Zeitdruck",
-          "Levelaufstieg über Punkte, gesammelte Edelsteine schalten Kosmetik frei",
+          "Levelaufstieg über Punkte, Combo-Multiplikator und Kaskaden",
+          "Shop: gesammelte Edelsteine gegen Dekoration, die frei auf der Wiese platziert wird",
+          "Direkt im Browser spielbar (Web-Build über GitHub Pages)",
           "Solo-Portfolioprojekt mit Engine-Programmierung, Spieldesign, Pixel Art und eigener Musik"
         ]
       },
@@ -446,7 +494,9 @@
         "subtitle": "Relaxing match-3 puzzle game built with Godot 4, with no timers or lives",
         "highlights": [
           "Zen mode only: no losing condition, no time pressure",
-          "Level-ups through score, collected gems unlock cosmetics",
+          "Level-ups through score, combo multiplier and cascades",
+          "Shop: spend collected gems on decorations placed freely on the meadow",
+          "Playable right in the browser (web build via GitHub Pages)",
           "Solo portfolio project covering engine programming, game design, pixel art and original music"
         ]
       }
@@ -1125,7 +1175,7 @@
       "repo": "https://github.com/TranceMeli/Spotify",
       "demo": null,
       "screenshots": [
-        "https://raw.githubusercontent.com/TranceMeli/Spotify/HEAD/images/spotify_screen.png"
+        "https://raw.githubusercontent.com/TranceMeli/Spotify/HEAD/docs/images/spotify_screen.png"
       ],
       "de": {
         "subtitle": "Analyse der meistgestreamten Spotify-Songs 2023",
