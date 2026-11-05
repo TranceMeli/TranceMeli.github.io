@@ -49,9 +49,8 @@
         "https://raw.githubusercontent.com/TranceMeli/CheckIn/HEAD/docs/screenshots/mobil-checkin.png"
       ],
       "de": {
-        "subtitle": "Webbasierte Anwesenheitsverwaltung – Weiterentwicklung des IHK-Abschlussprojekts",
+        "subtitle": "Webbasierte Anwesenheitsverwaltung mit Rollen, Dashboard und Auswertungen",
         "highlights": [
-          "Weiterentwicklung des IHK-Abschlussprojekts zu einer vollständigen Anwesenheitsverwaltung mit Rollen für Admins und Mitarbeitende",
           "Admin-Dashboard mit Zeitraum-Umschalter, Wochenraster des Teams, Zielwert-Anzeige, Heatmap und Abteilungsvergleich",
           "Verwalten-Seite zum Nachtragen und Korrigieren von Einträgen sowie persönliche Statistik für Mitarbeitende",
           "Responsive Oberfläche mit fließenden Größen, auf Tablet und Smartphone mit Tab-Leiste unten",
@@ -59,9 +58,8 @@
         ]
       },
       "en": {
-        "subtitle": "Web-based attendance management – further development of my IHK final project",
+        "subtitle": "Web-based attendance management with roles, dashboard and analytics",
         "highlights": [
-          "Further development of my IHK final project into a complete attendance management system with admin and employee roles",
           "Admin dashboard with period switcher, team week grid, target meter, heatmap and department comparison",
           "Manage page for adding and correcting entries, plus personal statistics for employees",
           "Responsive interface with fluid sizing, bottom tab bar on tablets and phones",
