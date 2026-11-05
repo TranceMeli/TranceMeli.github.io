@@ -29,7 +29,7 @@
   "projects": [
     {
       "id": "checkin",
-      "title": "CheckIn 2.0",
+      "title": "CheckIn 3.0",
       "category": "webapps",
       "tech": [
         "ASP.NET Core",
@@ -42,26 +42,30 @@
       "demo": null,
       "featured": true,
       "screenshots": [
-        "https://raw.githubusercontent.com/TranceMeli/CheckIn/HEAD/frontend/src/assets/checkin_v2_preview.jpeg"
+        "https://raw.githubusercontent.com/TranceMeli/CheckIn/HEAD/docs/screenshots/admin-dashboard.png",
+        "https://raw.githubusercontent.com/TranceMeli/CheckIn/HEAD/docs/screenshots/mitarbeiter-statistik.png",
+        "https://raw.githubusercontent.com/TranceMeli/CheckIn/HEAD/docs/screenshots/admin-verwalten.png",
+        "https://raw.githubusercontent.com/TranceMeli/CheckIn/HEAD/docs/screenshots/mitarbeiter-checkin.png",
+        "https://raw.githubusercontent.com/TranceMeli/CheckIn/HEAD/docs/screenshots/mobil-checkin.png"
       ],
       "de": {
         "subtitle": "Webbasierte Anwesenheitsverwaltung – Weiterentwicklung des IHK-Abschlussprojekts",
         "highlights": [
-          "Weiterentwicklung einer webbasierten Anwesenheitsverwaltung",
-          "Überarbeitung der Architektur und Optimierung bestehender Komponenten",
-          "Erweiterung des Rollen- und Berechtigungskonzepts",
-          "Verbesserung der Benutzeroberfläche und User Experience",
-          "Kontinuierliche Weiterentwicklung nach erfolgreichem IHK-Abschluss"
+          "Weiterentwicklung des IHK-Abschlussprojekts zu einer vollständigen Anwesenheitsverwaltung mit Rollen für Admins und Mitarbeitende",
+          "Admin-Dashboard mit Zeitraum-Umschalter, Wochenraster des Teams, Zielwert-Anzeige, Heatmap und Abteilungsvergleich",
+          "Verwalten-Seite zum Nachtragen und Korrigieren von Einträgen sowie persönliche Statistik für Mitarbeitende",
+          "Responsive Oberfläche mit fließenden Größen, auf Tablet und Smartphone mit Tab-Leiste unten",
+          "JWT mit Refresh-Token-Rotation, CSV- und PDF-Export sowie Impressum und Datenschutzseite"
         ]
       },
       "en": {
         "subtitle": "Web-based attendance management – further development of my IHK final project",
         "highlights": [
-          "Further development of a web-based attendance management system",
-          "Reworked the architecture and optimized existing components",
-          "Extended the role and permission concept",
-          "Improved the user interface and user experience",
-          "Continuous development after successfully completing the IHK exam"
+          "Further development of my IHK final project into a complete attendance management system with admin and employee roles",
+          "Admin dashboard with period switcher, team week grid, target meter, heatmap and department comparison",
+          "Manage page for adding and correcting entries, plus personal statistics for employees",
+          "Responsive interface with fluid sizing, bottom tab bar on tablets and phones",
+          "JWT with refresh token rotation, CSV and PDF export, plus imprint and privacy pages"
         ]
       },
       "cvOrder": 1
@@ -175,7 +179,7 @@
       "de": {
         "subtitle": "Webanwendung zur Verwaltung von Bewerbungen von der ersten Kontaktaufnahme bis zur Antwort",
         "highlights": [
-          "Status-Workflow, Favoriten, Live-Suche und Filter mit Zählern",
+          "Status-Workflow inklusive Initiativbewerbung, Favoriten, Live-Suche und Filter mit Zählern",
           "Listen-, Kachel- und Kartenansicht (Leaflet) mit ungefähren Entfernungen zu den Firmenstandorten",
           "Konfigurierbare Felder: Tabellenspalten und Formularfelder frei wählbar",
           "Import von Firmenlisten (CSV, XLSX, ODS, JSON) mit Vorschau sowie CSV-Export",
@@ -185,7 +189,7 @@
       "en": {
         "subtitle": "Web app for tracking job applications from first contact to the final answer",
         "highlights": [
-          "Status workflow, favorites, live search and filters with counters",
+          "Status workflow including unsolicited applications, favorites, live search and filters with counters",
           "List, card and map views (Leaflet) with approximate distances to company locations",
           "Configurable fields: table columns and form fields can be chosen freely",
           "Company list import (CSV, XLSX, ODS, JSON) with preview, plus CSV export",
@@ -480,7 +484,7 @@
         "highlights": [
           "Reiner Zen-Modus: kein Verlieren, kein Zeitdruck",
           "Levelaufstieg über Punkte, Combo-Multiplikator und Kaskaden",
-          "Shop: gesammelte Edelsteine gegen Dekoration, die frei auf der Wiese platziert wird",
+          "Shop: gesammelte Edelsteine gegen Dekoration, die frei auf der Wiese platziert, gedreht und wieder verkauft werden kann",
           "Direkt im Browser spielbar (Web-Build über GitHub Pages)",
           "Solo-Portfolioprojekt mit Engine-Programmierung, Spieldesign, Pixel Art und eigener Musik"
         ]
@@ -490,9 +494,50 @@
         "highlights": [
           "Zen mode only: no losing condition, no time pressure",
           "Level-ups through score, combo multiplier and cascades",
-          "Shop: spend collected gems on decorations placed freely on the meadow",
+          "Shop: spend collected gems on decorations that can be placed freely on the meadow, rotated and sold again",
           "Playable right in the browser (web build via GitHub Pages)",
           "Solo portfolio project covering engine programming, game design, pixel art and original music"
+        ]
+      }
+    },
+    {
+      "id": "shapeventures",
+      "title": "Shapeventures",
+      "category": "games",
+      "tech": [
+        "Godot 4",
+        "GDScript",
+        "Aseprite"
+      ],
+      "repo": "https://github.com/TranceMeli/Shapeventures",
+      "demo": null,
+      "status": "wip",
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/Shapeventures/HEAD/images/screenshot_menu.png",
+        "https://raw.githubusercontent.com/TranceMeli/Shapeventures/HEAD/images/screenshot_1.png",
+        "https://raw.githubusercontent.com/TranceMeli/Shapeventures/HEAD/images/screenshot_gameplay.png",
+        "https://raw.githubusercontent.com/TranceMeli/Shapeventures/HEAD/images/screenshot_boss.png",
+        "https://raw.githubusercontent.com/TranceMeli/Shapeventures/HEAD/images/screenshot_pause.png",
+        "https://raw.githubusercontent.com/TranceMeli/Shapeventures/HEAD/images/screenshot_victory.png"
+      ],
+      "de": {
+        "subtitle": "Pixel-Art-Arcade-Shooter mit Godot 4: vier Figuren, Gegnerwellen und ein Bosskampf",
+        "highlights": [
+          "Vertikal scrollender Shooter mit vier spielbaren Figuren, jede mit eigener Mechanik",
+          "Drei Gegnertypen und ein Boss mit eigenen Lebensbalken und Schussmustern",
+          "Schildsystem, Energie pro Figur, Loot, XP und Level",
+          "Pixel Art in Aseprite, Partikeleffekte, Pause-, Game-Over- und Siegbildschirm",
+          "Solo-Projekt in Arbeit, Musik mit FL Studio"
+        ]
+      },
+      "en": {
+        "subtitle": "Pixel art arcade shooter built with Godot 4: four characters, enemy waves and a boss fight",
+        "highlights": [
+          "Vertical scrolling shooter with four playable characters, each with a unique mechanic",
+          "Three enemy types and a boss with individual health bars and bullet patterns",
+          "Shield system, per-character energy, loot, XP and levels",
+          "Pixel art made in Aseprite, particle effects, pause, game over and victory screens",
+          "Solo project in progress, music made with FL Studio"
         ]
       }
     },
@@ -1218,7 +1263,11 @@
           "Exploration, cleaning and visualization with Python, pandas and SQLite",
           "Interactive Plotly Dash dashboard, also available as a static version on GitHub Pages"
         ]
-      }
+      },
+      "screenshots": [
+        "/screenshots/airline.png",
+        "/screenshots/airline-charts.png"
+      ]
     },
     {
       "id": "crocodile-data",

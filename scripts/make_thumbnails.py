@@ -34,9 +34,12 @@ def main(force: bool = False) -> None:
                 skipped += 1
                 continue
             try:
-                request = urllib.request.Request(url, headers={"User-Agent": "thumbnail-script"})
-                with urllib.request.urlopen(request, timeout=30) as response:
-                    data = response.read()
+                if url.startswith("/"):
+                    data = (ROOT / "public" / url.lstrip("/")).read_bytes()
+                else:
+                    request = urllib.request.Request(url, headers={"User-Agent": "thumbnail-script"})
+                    with urllib.request.urlopen(request, timeout=30) as response:
+                        data = response.read()
                 image = Image.open(io.BytesIO(data)).convert("RGB")
                 height = round(image.height * WIDTH / image.width)
                 image.resize((WIDTH, height), Image.LANCZOS).save(target, "WEBP", quality=78, method=6)
