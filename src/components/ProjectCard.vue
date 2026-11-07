@@ -1,5 +1,5 @@
 <script setup>
-import { computed } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { thumbnailFor } from '../data/thumbnails'
 
 const props = defineProps({
@@ -19,16 +19,41 @@ const screenshots = computed(() => props.project.screenshots ?? [])
 // Kleine Vorschau, sonst das Originalbild
 const thumbSrc = (index) => thumbnailFor(props.project.id, index) ?? screenshots.value[index]
 
+// Einblenden beim Scrollen und Lichtkegel, der der Maus folgt (rein dekorativ)
+const card = ref(null)
+const visible = ref(typeof IntersectionObserver === 'undefined')
+
+onMounted(() => {
+  if (visible.value) return
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      if (!entry.isIntersecting) return
+      visible.value = true
+      observer.disconnect()
+    },
+    { threshold: 0.08 },
+  )
+  observer.observe(card.value)
+})
+
+const follow = (event) => {
+  const box = card.value.getBoundingClientRect()
+  card.value.style.setProperty('--mx', `${event.clientX - box.left}px`)
+  card.value.style.setProperty('--my', `${event.clientY - box.top}px`)
+}
+
 const open = (index) => emit('open', { title: title.value, images: screenshots.value, index })
 </script>
 
 <template>
-  <article class="project-card">
+  <article ref="card" class="project-card" :class="{ in: visible }" @pointermove="follow">
     <div class="project-head">
-      <h3>{{ title }}</h3>
-      <span v-if="project.status === 'wip'" class="badge-wip">{{ labels.wip }}</span>
+      <h3>
+        <span class="k">class</span> <span class="f">{{ title }}</span>:
+        <span v-if="project.status === 'wip'" class="badge-wip">{{ labels.wip }}</span>
+      </h3>
     </div>
-    <p v-if="text.subtitle" class="project-subtitle">{{ text.subtitle }}</p>
+    <p v-if="text.subtitle" class="project-subtitle"># {{ text.subtitle }}</p>
 
     <!-- Screenshots: kleine Vorschau, Klick öffnet das Bild groß im Modal -->
     <ul v-if="screenshots.length" class="thumbs">
@@ -44,9 +69,10 @@ const open = (index) => emit('open', { title: title.value, images: screenshots.v
       </li>
     </ul>
 
-    <ul v-if="project.tech?.length" class="tags">
-      <li v-for="tech in project.tech" :key="tech">{{ tech }}</li>
-    </ul>
+    <p v-if="project.tech?.length" class="tech-line">
+      tech = [<template v-for="(tech, i) in project.tech" :key="tech"
+        ><span class="s">"{{ tech }}"</span><template v-if="i < project.tech.length - 1">, </template></template>]
+    </p>
 
     <ul v-if="text.highlights?.length" class="highlights">
       <li v-for="item in text.highlights" :key="item">{{ item }}</li>

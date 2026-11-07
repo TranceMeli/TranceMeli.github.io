@@ -98,18 +98,20 @@
         "subtitle": "Zweiseitige Job-Matching-Plattform für Arbeitssuchende und Unternehmen",
         "highlights": [
           "Wiederverwendbare Profile statt Einzelbewerbungen: Bewerber:innen und Unternehmen hinterlegen ihre Angaben und Anforderungen",
-          "Gemeinsamer, jobbezogener Fragebogen als Grundlage für das Matching",
-          "Authentifizierung mit ASP.NET Core Identity, JWT und Refresh Tokens",
-          "Open Source und in aktiver Entwicklung"
+          "Gemeinsamer Fragebogen mit 37 Fragen in 7 Kategorien als Grundlage für das Matching, ergänzt um einen Freitext-Abgleich",
+          "Swipe-Ansicht mit Match-Wert und Begründung, beschrifteten Aktionen, Tastaturbedienung und Rückgängig-Funktion",
+          "Gegenseitiges Interesse erzeugt ein Match und schaltet den Kontakt frei",
+          "Authentifizierung mit ASP.NET Core Identity, JWT und Refresh Tokens; Open Source und in aktiver Entwicklung"
         ]
       },
       "en": {
         "subtitle": "Two-sided job matching platform for job seekers and companies",
         "highlights": [
           "Reusable profiles instead of one-off applications: job seekers and companies provide their details and requirements",
-          "Shared, job-related questionnaire as the basis for matching",
-          "Authentication with ASP.NET Core Identity, JWT and refresh tokens",
-          "Open source and under active development"
+          "Shared questionnaire with 37 questions in 7 categories as the basis for matching, plus a free-text comparison",
+          "Swipe screen with match score and reasons, labeled actions, keyboard control and undo",
+          "Mutual interest creates a match and unlocks the contact details",
+          "Authentication with ASP.NET Core Identity, JWT and refresh tokens; open source and under active development"
         ]
       }
     },
@@ -171,27 +173,32 @@
       "status": "wip",
       "screenshots": [
         "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-list.jpg",
+        "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-detail.jpg",
+        "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-board.jpg",
+        "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-stats.jpg",
         "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-cards.jpg",
-        "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-map.jpg"
+        "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-map.jpg",
+        "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-dark.jpg",
+        "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-mobile.jpg"
       ],
       "de": {
         "subtitle": "Webanwendung zur Verwaltung von Bewerbungen von der ersten Kontaktaufnahme bis zur Antwort",
         "highlights": [
-          "Status-Workflow inklusive Initiativbewerbung, Favoriten, Live-Suche und Filter mit Zählern",
-          "Listen-, Kachel- und Kartenansicht (Leaflet) mit ungefähren Entfernungen zu den Firmenstandorten",
-          "Konfigurierbare Felder: Tabellenspalten und Formularfelder frei wählbar",
-          "Import von Firmenlisten (CSV, XLSX, ODS, JSON) mit Vorschau sowie CSV-Export",
-          "Dokumente pro Bewerbung, Oberfläche auf Deutsch und Englisch"
+          "Status-Workflow, Art der Bewerbung (Stelle oder Initiativ), Favoriten, Live-Suche und Filter-Menü mit Zählern",
+          "Liste, Kacheln, Board mit Drag and Drop und Karte (Leaflet) mit ungefähren Entfernungen zu den Firmenstandorten",
+          "Detailansicht mit Statusleiste, Verlauf und Dokumenten sowie Statistik zu Antwortquote und Verlauf",
+          "Konfigurierbare Felder, Import von Firmenlisten (CSV, XLSX, ODS, JSON) mit Vorschau, CSV- und Kalender-Export",
+          "Papierkorb mit Rückgängig, tägliche Backups, Dunkelmodus, Oberfläche auf Deutsch und Englisch"
         ]
       },
       "en": {
         "subtitle": "Web app for tracking job applications from first contact to the final answer",
         "highlights": [
-          "Status workflow including unsolicited applications, favorites, live search and filters with counters",
-          "List, card and map views (Leaflet) with approximate distances to company locations",
-          "Configurable fields: table columns and form fields can be chosen freely",
-          "Company list import (CSV, XLSX, ODS, JSON) with preview, plus CSV export",
-          "Document attachments per application, German and English interface"
+          "Status workflow, application type (posting or unsolicited), favorites, live search and a filter menu with counters",
+          "List, card, board with drag and drop, and map view (Leaflet) with approximate distances to company locations",
+          "Detail view with status bar, history and documents, plus statistics on response rate and progress",
+          "Configurable fields, company list import (CSV, XLSX, ODS, JSON) with preview, CSV and calendar export",
+          "Trash with undo, daily backups, dark mode, German and English interface"
         ]
       }
     },

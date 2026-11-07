@@ -1,10 +1,66 @@
 /* ---------- Mobil ---------- */
+@media (max-width: 900px) {
+  .titlebar {
+    grid-template-columns: 1fr auto;
+  }
+
+  .tagline {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    text-align: left;
+  }
+}
+
 @media (max-width: 760px) {
-  .shell {
+  .win {
+    width: calc(100% - 16px);
+    margin-top: 8px;
+  }
+
+  .wrap {
     grid-template-columns: 1fr;
   }
 
+  /* Explorer wird zur waagerechten Dateileiste */
+  .sidebar {
+    padding: 0;
+    overflow-x: auto;
+    border-right: 0;
+    border-bottom: 1px solid #2c2c2c;
+  }
+
+  .sidebar-title {
+    display: none;
+  }
+
+  .sidebar nav {
+    display: flex;
+  }
+
+  .sidebar a {
+    flex: none;
+    border-left: 0;
+    border-bottom: 3px solid transparent;
+  }
+
+  .sidebar a[aria-current="page"] {
+    border-bottom-color: var(--highlight);
+  }
+
+  .tabs {
+    display: none;
+  }
+
   .page {
-    padding: 25px;
+    padding: 24px 20px 40px 20px;
+  }
+
+  .book {
+    background: none;
+  }
+
+  .ln > b {
+    flex-basis: 36px;
+    padding-right: 12px;
   }
 }

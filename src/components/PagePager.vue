@@ -33,10 +33,13 @@ onUnmounted(() => window.removeEventListener('keydown', onKeydown))
 </script>
 
 <template>
-  <div class="pager">
-    <button type="button" :disabled="!hasPrev" @click="go(-1)">{{ t.pager.prev }}</button>
-    <button type="button" class="next" :disabled="!hasNext" @click="go(1)">
-      {{ t.pager.next }}
-    </button>
+  <div class="statusbar">
+    <div class="pager">
+      <button type="button" :disabled="!hasPrev" @click="go(-1)">{{ t.pager.prev }}</button>
+      <button type="button" class="next" :disabled="!hasNext" @click="go(1)">
+        {{ t.pager.next }}
+      </button>
+    </div>
+    <p class="status-info" aria-hidden="true">Python · UTF-8 · {{ index + 1 }}/{{ pages.length }}</p>
   </div>
 </template>

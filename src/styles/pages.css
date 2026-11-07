@@ -9,7 +9,7 @@
   margin: 0 0 32px;
   padding-bottom: 20px;
   border-bottom: 1px solid var(--border);
-  color: var(--cyan-700);
+  color: var(--link);
 }
 
 .letter p {
@@ -52,9 +52,9 @@
 .faq blockquote {
   margin: 0 0 24px;
   padding: 12px 16px;
-  background: var(--cyan-50);
+  background: var(--soft-bg);
   border-left: 4px solid var(--accent);
-  color: var(--cyan-900);
+  color: var(--soft-text);
 }
 
 .faq details {
@@ -70,11 +70,11 @@
 }
 
 .faq summary:hover {
-  color: var(--cyan-700);
+  color: var(--link);
 }
 
 .faq details[open] > summary {
-  color: var(--cyan-700);
+  color: var(--link);
 }
 
 .faq .answer {
@@ -95,7 +95,7 @@
 
 .cv .cv-role {
   margin: 0 0 4px;
-  color: var(--cyan-700);
+  color: var(--link);
   font-weight: 700;
 }
 
@@ -107,7 +107,7 @@
   margin: 36px 0 16px;
   padding-bottom: 6px;
   border-bottom: 2px solid var(--accent);
-  color: var(--cyan-700);
+  color: var(--link);
   font-size: 14px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -165,22 +165,58 @@
 }
 
 .project-card {
+  position: relative;
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  background: var(--bg-surface);
+  padding: 20px 22px;
+  overflow: hidden;
+  background: var(--bg-raised);
   border: 1px solid var(--border);
-  border-top: 4px solid var(--accent);
+  opacity: 0;
+  transform: translateY(14px);
+  transition:
+    opacity 0.5s,
+    transform 0.5s,
+    border-color 0.25s;
+}
+
+.project-card.in {
+  opacity: 1;
+  transform: none;
+}
+
+/* Lichtkegel, der der Maus folgt */
+.project-card::before {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(260px circle at var(--mx, 50%) var(--my, 50%), rgb(0 168 198 / 0.18), transparent 70%);
+  opacity: 0;
+  transition: opacity 0.25s;
+  pointer-events: none;
+  content: "";
+}
+
+.project-card:hover {
+  border-color: var(--accent);
+}
+
+.project-card:hover::before {
+  opacity: 1;
 }
 
 .project-card h3 {
   margin: 0 0 4px;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .project-subtitle {
   margin: 0 0 12px;
   color: var(--text-muted);
+  font-size: 13px;
+}
+
+.tech-line {
+  margin: 0 0 12px;
   font-size: 13px;
 }
 
@@ -195,8 +231,8 @@
 
 .tags li {
   padding: 2px 8px;
-  background: var(--cyan-50);
-  color: var(--cyan-900);
+  background: var(--soft-bg);
+  color: var(--soft-text);
   font-size: 12px;
   font-weight: 700;
 }
@@ -217,17 +253,17 @@
 }
 
 .project-links a {
-  padding: 6px 12px;
-  background: var(--gray-900);
-  color: var(--highlight);
+  padding: 4px 12px;
+  background: var(--accent);
+  color: var(--gray-900);
   font-size: 13px;
   font-weight: 700;
   text-decoration: none;
 }
 
 .project-links a:hover {
-  background: var(--cyan-700);
-  color: #fff;
+  background: var(--highlight);
+  color: var(--gray-900);
 }
 
 /* ---------- Startseite ---------- */
@@ -260,8 +296,8 @@
   max-width: 100%;
   border: 3px dashed var(--accent);
   border-radius: 12px;
-  background: var(--cyan-50);
-  color: var(--cyan-700);
+  background: var(--soft-bg);
+  color: var(--link);
   font-size: 72px;
   font-weight: 800;
 }
@@ -313,11 +349,10 @@
 .category-title {
   margin: 0 0 16px;
   padding-bottom: 6px;
-  border-bottom: 2px solid var(--accent);
-  color: var(--cyan-700);
+  border-bottom: 1px solid var(--border);
+  color: var(--text-muted);
   font-size: 14px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .category-count {
@@ -326,10 +361,6 @@
 }
 
 .project-head {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 6px;
   margin-bottom: 4px;
 }
 
@@ -338,10 +369,11 @@
 }
 
 .badge-wip {
-  padding: 1px 8px;
-  background: var(--yellow-100);
-  border: 1px solid var(--yellow-500);
-  color: var(--yellow-900);
+  display: inline-block;
+  margin-left: 8px;
+  padding: 0 8px;
+  background: var(--yellow-500);
+  color: var(--gray-900);
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.05em;
@@ -362,22 +394,31 @@
   display: block;
   padding: 0;
   border: 1px solid var(--border);
-  background: var(--gray-50);
+  background: var(--bg-raised);
   line-height: 0;
   cursor: zoom-in;
 }
 
 .thumb img {
   display: block;
-  width: 96px;
-  height: 64px;
+  width: 120px;
+  height: 76px;
   object-fit: cover;
   object-position: top left;
 }
 
+.thumb {
+  transition:
+    transform 0.2s,
+    border-color 0.2s;
+}
+
 .thumb:hover,
 .thumb:focus-visible {
-  border-color: var(--accent);
+  position: relative;
+  z-index: 2;
+  border-color: var(--highlight);
+  transform: scale(1.08);
 }
 
 /* ---------- FAQ: zweite Fragenrunde ---------- */
@@ -390,7 +431,7 @@
   margin: 0 0 8px;
   padding-bottom: 6px;
   border-bottom: 2px solid var(--accent);
-  color: var(--cyan-700);
+  color: var(--link);
   font-size: 14px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -399,4 +440,43 @@
 .faq-more-intro {
   margin: 0 0 16px;
   color: var(--text-muted);
+}
+
+/* ---------- Projekte: Filter ---------- */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 8px;
+}
+
+.filters button {
+  padding: 3px 12px;
+  background: transparent;
+  border-color: var(--gray-500);
+  color: var(--text);
+  font-size: 12px;
+  transition:
+    border-color 0.15s,
+    color 0.15s;
+}
+
+.filters button:hover {
+  border-color: var(--cyan-300);
+  color: var(--cyan-300);
+}
+
+.filters button.on {
+  background: var(--highlight);
+  border-color: var(--highlight);
+  color: var(--gray-900);
+  font-weight: 700;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-card {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }

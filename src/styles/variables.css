@@ -36,15 +36,18 @@
   /* Schrift */
   --font-mono: "JetBrains Mono", "Fira Code", Consolas, "Courier New", monospace;
 
-  /* Semantische Rollen */
-  --bg-page: var(--gray-50);
-  --bg-surface: #fff;
-  --bg-dark: var(--gray-900);
-  --text: var(--gray-700);
-  --text-muted: var(--gray-500);
-  --heading: var(--gray-900);
-  --border: var(--gray-100);
-  --link: var(--cyan-700);
+  /* Semantische Rollen (dunkler Editor) */
+  --bg-page: #121212;
+  --bg-win: #161616;
+  --bg-surface: var(--gray-900);
+  --bg-raised: #232323;
+  --text: var(--gray-100);
+  --text-muted: var(--gray-300);
+  --heading: #f4f4f4;
+  --border: #333;
+  --link: var(--cyan-300);
   --accent: var(--cyan-500);
   --highlight: var(--yellow-500);
+  --soft-bg: #12353d;
+  --soft-text: var(--cyan-100);
 }

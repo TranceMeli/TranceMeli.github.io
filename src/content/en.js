@@ -164,6 +164,7 @@ export default {
     "title": "Projects",
     "intro": "My public projects on GitHub, grouped by topic. [All repositories on GitHub](https://github.com/TranceMeli)",
     "labels": {
+      "all": "all",
       "code": "View code",
       "demo": "Live demo",
       "wip": "Work in progress",

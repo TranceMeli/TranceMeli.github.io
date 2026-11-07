@@ -8,12 +8,10 @@ const { lang, t } = useContent()
 </script>
 
 <template>
-  <header class="topbar">
-    <RouterLink class="wordmark" :to="{ name: 'home', params: { lang } }">
-      {{ t.header.wordmark }}
-    </RouterLink>
+  <header class="titlebar">
+    <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
 
-    <p>{{ t.header.tagline }}</p>
+    <p class="tagline"><b>#</b> {{ t.header.tagline }}</p>
 
     <!-- Sprachwechsel: gleiche Seite, andere Sprache -->
     <nav class="lang-switch" :aria-label="t.header.langLabel">

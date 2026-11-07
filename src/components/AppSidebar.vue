@@ -1,14 +1,14 @@
 <script setup>
 import { useContent } from '../composables/useContent'
 import { pages } from '../pages'
+import { fileName } from '../utils/fileName'
 
 const { lang, t } = useContent()
-
-const number = (index) => String(index + 1).padStart(2, '0')
 </script>
 
 <template>
   <aside class="sidebar">
+    <p class="sidebar-title">EXPLORER</p>
     <nav>
       <!-- RouterLink setzt für die aktive Seite automatisch aria-current="page" -->
       <RouterLink
@@ -16,7 +16,7 @@ const number = (index) => String(index + 1).padStart(2, '0')
         :key="page.key"
         :to="{ name: page.key, params: { lang } }"
       >
-        {{ number(index) }} {{ t.nav[page.key] }}
+        <span class="arrow" aria-hidden="true">▸</span> {{ fileName(index, t.nav[page.key]) }}
       </RouterLink>
     </nav>
   </aside>

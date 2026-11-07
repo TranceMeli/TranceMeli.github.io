@@ -4,6 +4,8 @@ import { useRoute } from 'vue-router'
 import { useContent } from './composables/useContent'
 import AppHeader from './components/AppHeader.vue'
 import AppSidebar from './components/AppSidebar.vue'
+import EditorTabs from './components/EditorTabs.vue'
+import EditorHead from './components/EditorHead.vue'
 import PagePager from './components/PagePager.vue'
 import AppFooter from './components/AppFooter.vue'
 
@@ -19,23 +21,28 @@ watchEffect(() => {
 </script>
 
 <template>
-  <AppHeader />
+  <div class="win">
+    <AppHeader />
 
-  <main class="shell">
-    <AppSidebar />
+    <div class="wrap">
+      <AppSidebar />
 
-    <section class="reader">
-      <div class="book">
-        <RouterView v-slot="{ Component }">
-          <Transition name="page" mode="out-in">
-            <component :is="Component" />
-          </Transition>
-        </RouterView>
-      </div>
+      <section class="reader">
+        <EditorTabs />
 
-      <PagePager />
-    </section>
-  </main>
+        <div class="book">
+          <EditorHead />
+          <RouterView v-slot="{ Component }">
+            <Transition name="page" mode="out-in">
+              <component :is="Component" />
+            </Transition>
+          </RouterView>
+        </div>
+      </section>
+    </div>
+
+    <PagePager />
+  </div>
 
   <AppFooter />
 </template>

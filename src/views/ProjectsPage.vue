@@ -18,6 +18,12 @@ const groups = computed(() =>
     .filter((group) => group.projects.length > 0),
 )
 
+// Filter: "all" oder die ID einer Kategorie
+const filter = ref('all')
+const visibleGroups = computed(() =>
+  filter.value === 'all' ? groups.value : groups.value.filter((group) => group.id === filter.value),
+)
+
 // Aktuell geöffnetes Screenshot-Modal (null = geschlossen)
 const viewer = ref(null)
 </script>
@@ -27,9 +33,24 @@ const viewer = ref(null)
     <h1>{{ t.projects.title }}</h1>
     <p class="subtitle"><RichText :text="t.projects.intro" /></p>
 
-    <section v-for="group in groups" :key="group.id" class="project-category">
-      <h2 class="category-title">
+    <div class="filters" role="group" :aria-label="t.projects.title">
+      <button type="button" :class="{ on: filter === 'all' }" @click="filter = 'all'">
+        {{ t.projects.labels.all }}
+      </button>
+      <button
+        v-for="group in groups"
+        :key="group.id"
+        type="button"
+        :class="{ on: filter === group.id }"
+        @click="filter = group.id"
+      >
         {{ group[lang] ?? group.de }}
+      </button>
+    </div>
+
+    <section v-for="group in visibleGroups" :key="group.id" class="project-category">
+      <h2 class="category-title">
+        <span class="c"># {{ group[lang] ?? group.de }}</span>
         <span class="category-count">({{ group.projects.length }})</span>
       </h2>
 
