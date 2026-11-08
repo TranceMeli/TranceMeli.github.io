@@ -133,6 +133,7 @@
       "status": "wip",
       "screenshots": [
         "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/screenshot.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/dark-screenshot.jpeg",
         "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/comments-screenshot.jpeg",
         "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/comments-landscape-screenshot.jpeg",
         "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/login-screenshot.jpeg",
@@ -144,7 +145,8 @@
           "Monatsübersicht als Kalender, gepostet werden kann nur am aktuellen Tag",
           "Ein Beitrag pro Tag wird serverseitig erzwungen, nicht nur im Frontend",
           "JWT mit Refresh-Token-Rotation und Erkennung von Token-Diebstahl",
-          "Rollen (Admin, Manager, User) mit Moderation, dazu Kommentare, Gästebuch und Emojis"
+          "Rollen (Admin, Manager, User) mit Moderation, dazu Kommentare, Gästebuch und Emojis",
+          "Neues Design in Indigo und Pink mit eigener Dunkel-Palette, die der Systemeinstellung folgt, und barrierefreien Formularen"
         ]
       },
       "en": {
@@ -153,7 +155,8 @@
           "Monthly overview as a calendar, posting is only possible for the current day",
           "One post per day is enforced server-side, not just in the frontend",
           "JWT with refresh token rotation and token theft detection",
-          "Roles (Admin, Manager, User) with moderation, plus comments, guestbook and emojis"
+          "Roles (Admin, Manager, User) with moderation, plus comments, guestbook and emojis",
+          "New design in indigo and pink with its own dark palette that follows the system setting, and accessible forms"
         ]
       }
     },
@@ -188,7 +191,7 @@
           "Liste, Kacheln, Board mit Drag and Drop und Karte (Leaflet) mit ungefähren Entfernungen zu den Firmenstandorten",
           "Detailansicht mit Statusleiste, Verlauf und Dokumenten sowie Statistik zu Antwortquote und Verlauf",
           "Konfigurierbare Felder, Import von Firmenlisten (CSV, XLSX, ODS, JSON) mit Vorschau, CSV- und Kalender-Export",
-          "Papierkorb mit Rückgängig, tägliche Backups, Dunkelmodus, Oberfläche auf Deutsch und Englisch"
+          "Überarbeitetes Design in Hell und Dunkel, Papierkorb mit Rückgängig, tägliche Backups, Oberfläche auf Deutsch und Englisch"
         ]
       },
       "en": {
@@ -198,7 +201,7 @@
           "List, card, board with drag and drop, and map view (Leaflet) with approximate distances to company locations",
           "Detail view with status bar, history and documents, plus statistics on response rate and progress",
           "Configurable fields, company list import (CSV, XLSX, ODS, JSON) with preview, CSV and calendar export",
-          "Trash with undo, daily backups, dark mode, German and English interface"
+          "Reworked design in light and dark, trash with undo, daily backups, German and English interface"
         ]
       }
     },
