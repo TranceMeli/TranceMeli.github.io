@@ -42,7 +42,6 @@ watchEffect(() => {
     </div>
 
     <PagePager />
+    <AppFooter />
   </div>
-
-  <AppFooter />
 </template>

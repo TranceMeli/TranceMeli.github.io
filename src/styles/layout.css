@@ -305,49 +305,60 @@
   cursor: not-allowed;
 }
 
-/* ---------- Fußzeile (haftet unten) ---------- */
+/* ---------- Fußzeile: Terminal-Zeile am Fenster ---------- */
 .site-footer {
-  position: sticky;
-  bottom: 0;
-  z-index: 10;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  gap: 12px 28px;
-  margin-top: auto;
-  padding: 14px 5%;
-  background: var(--cyan-500);
-  border-top: 3px solid var(--highlight);
-  color: var(--gray-900);
-  text-align: center;
+  gap: 10px 14px;
+  padding: 12px 20px;
+  background: #0f0f0f;
+  border-top: 2px solid var(--accent);
+  font-size: 13.5px;
+}
+
+.site-footer .prompt {
+  color: var(--cyan-300);
+  font-weight: 700;
 }
 
 .site-footer .cta {
+  flex: 1;
+  min-width: 260px;
   margin: 0;
-  font-weight: 700;
+  color: #fff;
 }
 
 .site-footer .contact {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   margin: 0;
 }
 
 .site-footer a {
-  padding: 4px 12px;
-  background: var(--gray-900);
-  color: var(--highlight);
+  padding: 1px 10px;
+  background: var(--accent);
+  color: var(--gray-900);
   font-size: 13px;
   font-weight: 700;
   text-decoration: none;
+  transition: background 0.15s;
 }
 
 .site-footer a:hover {
-  background: var(--cyan-900);
-  color: var(--yellow-300);
+  background: var(--highlight);
+  color: var(--gray-900);
 }
 
 .site-footer :focus-visible {
-  outline-color: var(--gray-900);
+  outline-color: var(--highlight);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
