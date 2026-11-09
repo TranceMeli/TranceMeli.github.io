@@ -136,27 +136,31 @@
         "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/dark-screenshot.jpeg",
         "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/comments-screenshot.jpeg",
         "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/comments-landscape-screenshot.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/text-screenshot.jpeg",
         "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/login-screenshot.jpeg",
-        "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/mobile-screenshot.jpeg"
+        "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/mobile-screenshot.jpeg",
+        "https://raw.githubusercontent.com/TranceMeli/JustOne/HEAD/docs/mobile-text-screenshot.jpeg"
       ],
       "de": {
-        "subtitle": "Soziales Netzwerk mit nur einer Regel: ein Foto pro Tag, nichts weiter",
+        "subtitle": "Soziales Netzwerk mit nur einer Regel: ein Beitrag pro Tag, als Foto, GIF oder ein paar Worte",
         "highlights": [
           "Monatsübersicht als Kalender, gepostet werden kann nur am aktuellen Tag",
-          "Ein Beitrag pro Tag wird serverseitig erzwungen, nicht nur im Frontend",
+          "Ein Beitrag pro Tag wird serverseitig erzwungen, wahlweise als Foto, GIF oder Text mit bis zu 500 Zeichen",
           "JWT mit Refresh-Token-Rotation und Erkennung von Token-Diebstahl",
-          "Rollen (Admin, Manager, User) mit Moderation, dazu Kommentare, Gästebuch und Emojis",
-          "Neues Design in Indigo und Pink mit eigener Dunkel-Palette, die der Systemeinstellung folgt, und barrierefreien Formularen"
+          "Rollen (Admin, Manager, User) mit Moderation, dazu Kommentare, öffentliches Gästebuch und Emojis",
+          "Neues Design in Indigo und Pink mit eigener Dunkel-Palette, die der Systemeinstellung folgt, und barrierefreien Formularen",
+          "Demo-Modus mit Beispieldaten für Fotos, GIFs und Texte"
         ]
       },
       "en": {
-        "subtitle": "Social network with a single rule: one photo per day, nothing more",
+        "subtitle": "Social network with a single rule: one post per day, as a photo, a GIF or a few words",
         "highlights": [
           "Monthly overview as a calendar, posting is only possible for the current day",
-          "One post per day is enforced server-side, not just in the frontend",
+          "One post per day is enforced server-side, as a photo, a GIF or text of up to 500 characters",
           "JWT with refresh token rotation and token theft detection",
-          "Roles (Admin, Manager, User) with moderation, plus comments, guestbook and emojis",
-          "New design in indigo and pink with its own dark palette that follows the system setting, and accessible forms"
+          "Roles (Admin, Manager, User) with moderation, plus comments, a public guestbook and emojis",
+          "New design in indigo and pink with its own dark palette that follows the system setting, and accessible forms",
+          "Demo mode with sample data for photos, GIFs and texts"
         ]
       }
     },
