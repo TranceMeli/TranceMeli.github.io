@@ -165,6 +165,51 @@
       }
     },
     {
+      "id": "inmoshpit",
+      "title": "InMoshPit",
+      "category": "webapps",
+      "tech": [
+        "Vue 3",
+        "TypeScript",
+        "Vite",
+        "Pinia",
+        "vue-i18n",
+        "Django REST Framework",
+        "SQLite",
+        "JWT",
+        "HLS"
+      ],
+      "repo": "https://raw.githubusercontent.com/TranceMeli/InMoshPit",
+      "demo": null,
+      "status": "wip",
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/InMoshPit/HEAD/docs/screenshots/streams.png",
+        "https://raw.githubusercontent.com/TranceMeli/InMoshPit/HEAD/docs/screenshots/events.png",
+        "https://raw.githubusercontent.com/TranceMeli/InMoshPit/HEAD/docs/screenshots/videos.png",
+        "https://raw.githubusercontent.com/TranceMeli/InMoshPit/HEAD/docs/screenshots/stream-countdown.png"
+      ],
+      "de": {
+        "subtitle": "Streaming-Plattform für Live-Konzerte und Festivals mit Archiv der Aufzeichnungen",
+        "highlights": [
+          "Live-Streams mit Countdown, Statusanzeige und HLS-Wiedergabe (hls.js)",
+          "Archiv der Aufzeichnungen mit Likes und Kommentaren",
+          "Events (Konzerte, Festivals) mit Line-up, Bühnen, Künstlern und Bands",
+          "Registrierung und JWT-Login mit rotierenden Refresh-Tokens und automatischer Erneuerung",
+          "Oberfläche auf Deutsch und Englisch (vue-i18n), Demo-Daten mit generierten Covern"
+        ]
+      },
+      "en": {
+        "subtitle": "Concert streaming platform: watch live concerts and festivals, then catch up with the recordings",
+        "highlights": [
+          "Live streams with countdown, status updates and HLS playback (hls.js)",
+          "Recordings archive with likes and comments",
+          "Events (concerts, festivals) with line-ups, stages, artists and bands",
+          "Registration and JWT login with rotating refresh tokens and automatic renewal",
+          "German and English interface (vue-i18n), demo data with generated covers"
+        ]
+      }
+    },
+    {
       "id": "application-tracker",
       "title": "Application Tracker",
       "category": "webapps",
@@ -181,8 +226,11 @@
       "screenshots": [
         "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-list.jpg",
         "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-detail.jpg",
+        "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-files.jpg",
+        "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-viewer.jpg",
         "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-board.jpg",
         "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-stats.jpg",
+        "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-sankey.jpg",
         "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-cards.jpg",
         "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-map.jpg",
         "https://raw.githubusercontent.com/TranceMeli/ApplicationTracker/HEAD/frontend/src/assets/screenshot/preview-dark.jpg",
@@ -193,7 +241,7 @@
         "highlights": [
           "Status-Workflow, Art der Bewerbung (Stelle oder Initiativ), Favoriten, Live-Suche und Filter-Menü mit Zählern",
           "Liste, Kacheln, Board mit Drag and Drop und Karte (Leaflet) mit ungefähren Entfernungen zu den Firmenstandorten",
-          "Detailansicht mit Statusleiste, Verlauf und Dokumenten sowie Statistik zu Antwortquote und Verlauf",
+          "Detailansicht mit Statusleiste, Verlauf und Dokumenten (PDFs und Bilder im Viewer) sowie Statistik mit Sankey-Diagramm",
           "Konfigurierbare Felder, Import von Firmenlisten (CSV, XLSX, ODS, JSON) mit Vorschau, CSV- und Kalender-Export",
           "Überarbeitetes Design in Hell und Dunkel, Papierkorb mit Rückgängig, tägliche Backups, Oberfläche auf Deutsch und Englisch"
         ]
@@ -203,7 +251,7 @@
         "highlights": [
           "Status workflow, application type (posting or unsolicited), favorites, live search and a filter menu with counters",
           "List, card, board with drag and drop, and map view (Leaflet) with approximate distances to company locations",
-          "Detail view with status bar, history and documents, plus statistics on response rate and progress",
+          "Detail view with status bar, history and documents (PDFs and images in a viewer), plus statistics with a Sankey diagram",
           "Configurable fields, company list import (CSV, XLSX, ODS, JSON) with preview, CSV and calendar export",
           "Reworked design in light and dark, trash with undo, daily backups, German and English interface"
         ]
@@ -312,10 +360,12 @@
       ],
       "repo": "https://github.com/TranceMeli/RestaurantWebsite",
       "demo": null,
+      "status": "wip",
       "screenshots": [
         "https://raw.githubusercontent.com/TranceMeli/RestaurantWebsite/HEAD/docs/screenshots/startseite.png",
         "https://raw.githubusercontent.com/TranceMeli/RestaurantWebsite/HEAD/docs/screenshots/ueber-das-restaurant.png",
         "https://raw.githubusercontent.com/TranceMeli/RestaurantWebsite/HEAD/docs/screenshots/reservierung.png",
+        "https://raw.githubusercontent.com/TranceMeli/RestaurantWebsite/HEAD/docs/screenshots/kontakt.png",
         "https://raw.githubusercontent.com/TranceMeli/RestaurantWebsite/HEAD/docs/screenshots/speisekarte.png",
         "https://raw.githubusercontent.com/TranceMeli/RestaurantWebsite/HEAD/docs/screenshots/standorte.png",
         "https://raw.githubusercontent.com/TranceMeli/RestaurantWebsite/HEAD/docs/screenshots/mobil.png"
@@ -327,7 +377,8 @@
           "Standorte-Seite mit interaktiver Karte (Leaflet, OpenStreetMap)",
           "Reservierungsformular mit Validierung im Frontend und erneuter Prüfung im Django-Backend, Fehler direkt am Feld",
           "Datenschutzfreundlich: lokal eingebundene Schrift, keine Cookies, kein Tracking",
-          "Eigenes Logo, Farbsystem auf HSL-Basis, schrumpfender Header und responsives Layout mit Hamburger-Menü"
+          "Eigenes Logo, Farbsystem auf HSL-Basis, schrumpfender Header und responsives Layout mit Hamburger-Menü",
+          "Barrierefrei nach WCAG AA mit sichtbarem Tastaturfokus und 49 automatisierten Tests (Vitest, Django)"
         ]
       },
       "en": {
@@ -337,7 +388,8 @@
           "Locations page with an interactive map (Leaflet, OpenStreetMap)",
           "Reservation form with frontend validation and a second check in the Django backend, errors shown right at the field",
           "Privacy-friendly: locally hosted font, no cookies, no tracking",
-          "Custom logo, HSL-based color system, shrinking header and responsive layout with hamburger menu"
+          "Custom logo, HSL-based color system, shrinking header and responsive layout with hamburger menu",
+          "Accessible to WCAG AA with visible keyboard focus and 49 automated tests (Vitest, Django)"
         ]
       }
     },
@@ -858,32 +910,37 @@
       "title": "TriviaQuiz",
       "category": "frontend",
       "tech": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Open Trivia DB"
+        "Vue 3",
+        "TypeScript",
+        "Vite",
+        "Open Trivia DB",
+        "Vitest"
       ],
       "repo": "https://github.com/TranceMeli/TriviaQuiz",
-      "demo": null,
+      "demo": "https://trancemeli.github.io/TriviaQuiz/",
       "screenshots": [
-        "https://raw.githubusercontent.com/TranceMeli/TriviaQuiz/HEAD/assets/trivia_quiz.jpeg"
+        "https://raw.githubusercontent.com/TranceMeli/TriviaQuiz/HEAD/docs/screenshot-setup.jpg",
+        "https://raw.githubusercontent.com/TranceMeli/TriviaQuiz/HEAD/docs/screenshot-quiz.jpg",
+        "https://raw.githubusercontent.com/TranceMeli/TriviaQuiz/HEAD/docs/screenshot-result.jpg"
       ],
       "de": {
-        "subtitle": "Quiz-Anwendung mit Fragen aus der Open Trivia DB",
+        "subtitle": "Interaktives Quiz mit Fragen aus der Open Trivia DB, gebaut mit Vue 3 und TypeScript",
         "highlights": [
-          "Fragen werden dynamisch von einer externen API geladen",
-          "Antwortauswahl mit sofortigem visuellem Feedback und Punktestand",
-          "Anzahl der Fragen, Kategorie und Schwierigkeit einstellbar",
-          "Vanilla JavaScript mit ES-Modulen"
+          "Fragen werden dynamisch von einer externen API geladen (Multiple Choice und Wahr/Falsch)",
+          "Einstellungen mit Schnellauswahl, Kategorie und Schwierigkeit, die letzte Auswahl wird gemerkt",
+          "Sofortiges Feedback nicht nur über Farbe, Ergebnis mit Auswertung aller verpassten Fragen",
+          "Komplett per Tastatur bedienbar und barrierefrei (WCAG AA), mit Lade-, Fehler- und Leerzuständen",
+          "Direkt im Browser spielbar (GitHub Pages)"
         ]
       },
       "en": {
-        "subtitle": "Quiz app with questions from the Open Trivia DB",
+        "subtitle": "Interactive quiz with questions from the Open Trivia DB, built with Vue 3 and TypeScript",
         "highlights": [
-          "Questions loaded dynamically from an external API",
-          "Multiple choice with instant visual feedback and score tracking",
-          "Configurable number of questions, category and difficulty",
-          "Vanilla JavaScript with ES modules"
+          "Questions loaded dynamically from an external API (multiple choice and true/false)",
+          "Settings with quick picks, category and difficulty, the last choice is remembered",
+          "Instant feedback that does not rely on color alone, result with a review of every missed question",
+          "Fully keyboard-operable and accessible (WCAG AA), with loading, error and empty states",
+          "Playable right in the browser (GitHub Pages)"
         ]
       }
     },
