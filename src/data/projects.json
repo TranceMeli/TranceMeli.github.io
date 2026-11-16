@@ -33,6 +33,7 @@
       "category": "webapps",
       "tech": [
         "ASP.NET Core",
+        ".NET 10",
         "React",
         "SQL Server",
         "Entity Framework Core",
@@ -54,7 +55,8 @@
           "Admin-Dashboard mit Zeitraum-Umschalter, Wochenraster des Teams, Zielwert-Anzeige, Heatmap und Abteilungsvergleich",
           "Verwalten-Seite zum Nachtragen und Korrigieren von Einträgen sowie persönliche Statistik für Mitarbeitende",
           "Responsive Oberfläche mit fließenden Größen, auf Tablet und Smartphone mit Tab-Leiste unten",
-          "JWT mit Refresh-Token-Rotation, CSV- und PDF-Export sowie Impressum und Datenschutzseite"
+          "JWT mit Refresh-Token-Rotation, CSV- und PDF-Export sowie Impressum und Datenschutzseite",
+          "287 automatisierte Tests (105 Backend, 182 Frontend) mit xUnit und Vitest"
         ]
       },
       "en": {
@@ -63,7 +65,8 @@
           "Admin dashboard with period switcher, team week grid, target meter, heatmap and department comparison",
           "Manage page for adding and correcting entries, plus personal statistics for employees",
           "Responsive interface with fluid sizing, bottom tab bar on tablets and phones",
-          "JWT with refresh token rotation, CSV and PDF export, plus imprint and privacy pages"
+          "JWT with refresh token rotation, CSV and PDF export, plus imprint and privacy pages",
+          "287 automated tests (105 backend, 182 frontend) with xUnit and Vitest"
         ]
       },
       "cvOrder": 1
@@ -101,6 +104,7 @@
           "Gemeinsamer Fragebogen mit 37 Fragen in 7 Kategorien als Grundlage für das Matching, ergänzt um einen Freitext-Abgleich",
           "Swipe-Ansicht mit Match-Wert und Begründung, beschrifteten Aktionen, Tastaturbedienung und Rückgängig-Funktion",
           "Gegenseitiges Interesse erzeugt ein Match und schaltet den Kontakt frei",
+          "136 automatisierte Tests auf drei Ebenen: xUnit, Vitest und Playwright im Browser",
           "Authentifizierung mit ASP.NET Core Identity, JWT und Refresh Tokens; Open Source und in aktiver Entwicklung"
         ]
       },
@@ -111,6 +115,7 @@
           "Shared questionnaire with 37 questions in 7 categories as the basis for matching, plus a free-text comparison",
           "Swipe screen with match score and reasons, labeled actions, keyboard control and undo",
           "Mutual interest creates a match and unlocks the contact details",
+          "136 automated tests on three levels: xUnit, Vitest and Playwright in the browser",
           "Authentication with ASP.NET Core Identity, JWT and refresh tokens; open source and under active development"
         ]
       }
@@ -149,7 +154,8 @@
           "JWT mit Refresh-Token-Rotation und Erkennung von Token-Diebstahl",
           "Rollen (Admin, Manager, User) mit Moderation, dazu Kommentare, öffentliches Gästebuch und Emojis",
           "Neues Design in Indigo und Pink mit eigener Dunkel-Palette, die der Systemeinstellung folgt, und barrierefreien Formularen",
-          "Demo-Modus mit Beispieldaten für Fotos, GIFs und Texte"
+          "Demo-Modus mit Beispieldaten für Fotos, GIFs und Texte",
+          "103 automatisierte Tests (xUnit, Vitest) sowie End-to-End-Tests mit Playwright"
         ]
       },
       "en": {
@@ -160,7 +166,8 @@
           "JWT with refresh token rotation and token theft detection",
           "Roles (Admin, Manager, User) with moderation, plus comments, a public guestbook and emojis",
           "New design in indigo and pink with its own dark palette that follows the system setting, and accessible forms",
-          "Demo mode with sample data for photos, GIFs and texts"
+          "Demo mode with sample data for photos, GIFs and texts",
+          "103 automated tests (xUnit, Vitest) plus end-to-end tests with Playwright"
         ]
       }
     },
@@ -239,21 +246,23 @@
       "de": {
         "subtitle": "Webanwendung zur Verwaltung von Bewerbungen von der ersten Kontaktaufnahme bis zur Antwort",
         "highlights": [
-          "Status-Workflow, Art der Bewerbung (Stelle oder Initiativ), Favoriten, Live-Suche und Filter-Menü mit Zählern",
+          "Status-Workflow, Art der Bewerbung (Stelle, Initiativ oder Vermittler), Favoriten, Live-Suche und Filter-Menü mit Zählern",
           "Liste, Kacheln, Board mit Drag and Drop und Karte (Leaflet) mit ungefähren Entfernungen zu den Firmenstandorten",
           "Detailansicht mit Statusleiste, Verlauf und Dokumenten (PDFs und Bilder im Viewer) sowie Statistik mit Sankey-Diagramm",
           "Konfigurierbare Felder, Import von Firmenlisten (CSV, XLSX, ODS, JSON) mit Vorschau, CSV- und Kalender-Export",
-          "Überarbeitetes Design in Hell und Dunkel, Papierkorb mit Rückgängig, tägliche Backups, Oberfläche auf Deutsch und Englisch"
+          "Überarbeitetes Design in Hell und Dunkel, Papierkorb mit Rückgängig, tägliche Backups, Oberfläche auf Deutsch und Englisch",
+          "Automatisierte Tests mit Vitest und End-to-End-Tests im Browser"
         ]
       },
       "en": {
         "subtitle": "Web app for tracking job applications from first contact to the final answer",
         "highlights": [
-          "Status workflow, application type (posting or unsolicited), favorites, live search and a filter menu with counters",
+          "Status workflow, application type (posting, unsolicited or agency), favorites, live search and a filter menu with counters",
           "List, card, board with drag and drop, and map view (Leaflet) with approximate distances to company locations",
           "Detail view with status bar, history and documents (PDFs and images in a viewer), plus statistics with a Sankey diagram",
           "Configurable fields, company list import (CSV, XLSX, ODS, JSON) with preview, CSV and calendar export",
-          "Reworked design in light and dark, trash with undo, daily backups, German and English interface"
+          "Reworked design in light and dark, trash with undo, daily backups, German and English interface",
+          "Automated tests with Vitest and end-to-end tests in the browser"
         ]
       }
     },
