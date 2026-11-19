@@ -44,6 +44,7 @@
       "featured": true,
       "screenshots": [
         "https://raw.githubusercontent.com/TranceMeli/CheckIn/HEAD/docs/screenshots/admin-dashboard.png",
+        "https://raw.githubusercontent.com/TranceMeli/CheckIn/HEAD/docs/screenshots/admin-dashboard-en.png",
         "https://raw.githubusercontent.com/TranceMeli/CheckIn/HEAD/docs/screenshots/mitarbeiter-statistik.png",
         "https://raw.githubusercontent.com/TranceMeli/CheckIn/HEAD/docs/screenshots/admin-verwalten.png",
         "https://raw.githubusercontent.com/TranceMeli/CheckIn/HEAD/docs/screenshots/mitarbeiter-checkin.png",
@@ -55,8 +56,9 @@
           "Admin-Dashboard mit Zeitraum-Umschalter, Wochenraster des Teams, Zielwert-Anzeige, Heatmap und Abteilungsvergleich",
           "Verwalten-Seite zum Nachtragen und Korrigieren von Einträgen sowie persönliche Statistik für Mitarbeitende",
           "Responsive Oberfläche mit fließenden Größen, auf Tablet und Smartphone mit Tab-Leiste unten",
+          "Oberfläche auf Deutsch und Englisch, umschaltbar im Kopfbereich, inklusive Diagramme, Datumsformate und Rechtsseiten",
           "JWT mit Refresh-Token-Rotation, CSV- und PDF-Export sowie Impressum und Datenschutzseite",
-          "287 automatisierte Tests (105 Backend, 182 Frontend) mit xUnit und Vitest"
+          "366 automatisierte Tests (105 Backend, 225 Frontend, 36 End-to-End, darunter 18 Barrierefreiheits-Prüfungen)"
         ]
       },
       "en": {
@@ -65,8 +67,9 @@
           "Admin dashboard with period switcher, team week grid, target meter, heatmap and department comparison",
           "Manage page for adding and correcting entries, plus personal statistics for employees",
           "Responsive interface with fluid sizing, bottom tab bar on tablets and phones",
+          "German and English interface with a switch in the header, including charts, date formats and legal pages",
           "JWT with refresh token rotation, CSV and PDF export, plus imprint and privacy pages",
-          "287 automated tests (105 backend, 182 frontend) with xUnit and Vitest"
+          "366 automated tests (105 backend, 225 frontend, 36 end-to-end, 18 of them accessibility checks)"
         ]
       },
       "cvOrder": 1
@@ -217,6 +220,48 @@
       }
     },
     {
+      "id": "gifme",
+      "title": "GifMeCollector",
+      "category": "webapps",
+      "tech": [
+        "Vue 3",
+        "Vite",
+        "Pinia",
+        "Django REST Framework",
+        "SQLite",
+        "Pillow",
+        "FFmpeg"
+      ],
+      "repo": "https://raw.githubusercontent.com/TranceMeli/GifMe",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/GifMe/HEAD/docs/screenshots/overview.png",
+        "https://raw.githubusercontent.com/TranceMeli/GifMe/HEAD/docs/screenshots/detail.png",
+        "https://raw.githubusercontent.com/TranceMeli/GifMe/HEAD/docs/screenshots/add.png",
+        "https://raw.githubusercontent.com/TranceMeli/GifMe/HEAD/docs/screenshots/edit.png"
+      ],
+      "de": {
+        "subtitle": "Persönliche Sammlung für GIFs, Memes und Videos, die komplett lokal läuft",
+        "highlights": [
+          "Übersicht mit Tabs für GIFs, Memes und Videos, Suche über Titel, Tags und Quelle, Sortierung und Favoriten",
+          "Hinzufügen per Drag-and-drop, Dateiauswahl, Einfügen aus der Zwischenablage oder Link-Import, Duplikate werden per SHA-256 erkannt",
+          "GIFs und Bilder bearbeiten: Einzelbilder kürzen, umkehren, Tempo ändern, zuschneiden, drehen und skalieren, mit Live-Vorschau",
+          "Vorschaubilder mit Pillow und FFmpeg, animierte Vorschau bei Hover und Tastaturfokus",
+          "Barrierefrei mit sichtbarem Fokus und Kontrasten ab 4,5:1; Tests mit Django TestCase und Vitest"
+        ]
+      },
+      "en": {
+        "subtitle": "Personal collection for GIFs, memes and videos that runs entirely on your own machine",
+        "highlights": [
+          "Overview with tabs for GIFs, memes and videos, search over title, tags and source, sorting and favorites",
+          "Add by drag and drop, file picker, clipboard paste or link import, duplicates are detected by SHA-256",
+          "Edit GIFs and images: trim frames, reverse, change speed, crop, rotate and scale, with a live preview",
+          "Thumbnails with Pillow and FFmpeg, animated preview on hover and keyboard focus",
+          "Accessible with visible focus and contrast of at least 4.5:1; tests with Django TestCase and Vitest"
+        ]
+      }
+    },
+    {
       "id": "application-tracker",
       "title": "Application Tracker",
       "category": "webapps",
@@ -251,7 +296,8 @@
           "Detailansicht mit Statusleiste, Verlauf und Dokumenten (PDFs und Bilder im Viewer) sowie Statistik mit Sankey-Diagramm",
           "Konfigurierbare Felder, Import von Firmenlisten (CSV, XLSX, ODS, JSON) mit Vorschau, CSV- und Kalender-Export",
           "Überarbeitetes Design in Hell und Dunkel, Papierkorb mit Rückgängig, tägliche Backups, Oberfläche auf Deutsch und Englisch",
-          "Automatisierte Tests mit Vitest und End-to-End-Tests im Browser"
+          "Automatisierte Tests mit Vitest und End-to-End-Tests im Browser",
+          "Als Windows-Paket zum Herunterladen mit Startprogramm, ein Server liefert Oberfläche und API"
         ]
       },
       "en": {
@@ -262,7 +308,8 @@
           "Detail view with status bar, history and documents (PDFs and images in a viewer), plus statistics with a Sankey diagram",
           "Configurable fields, company list import (CSV, XLSX, ODS, JSON) with preview, CSV and calendar export",
           "Reworked design in light and dark, trash with undo, daily backups, German and English interface",
-          "Automated tests with Vitest and end-to-end tests in the browser"
+          "Automated tests with Vitest and end-to-end tests in the browser",
+          "Available as a Windows package with a start program, one server delivers the interface and the API"
         ]
       }
     },
@@ -332,7 +379,8 @@
         "https://raw.githubusercontent.com/TranceMeli/OrganizeMe/HEAD/docs/screenshots/notebook-dark.png",
         "https://raw.githubusercontent.com/TranceMeli/OrganizeMe/HEAD/docs/screenshots/drawing.png",
         "https://raw.githubusercontent.com/TranceMeli/OrganizeMe/HEAD/docs/screenshots/todos.png",
-        "https://raw.githubusercontent.com/TranceMeli/OrganizeMe/HEAD/docs/screenshots/code.png"
+        "https://raw.githubusercontent.com/TranceMeli/OrganizeMe/HEAD/docs/screenshots/code.png",
+        "https://raw.githubusercontent.com/TranceMeli/OrganizeMe/HEAD/docs/screenshots/narrow.png"
       ],
       "de": {
         "subtitle": "Persönlicher Organizer als lokale Webanwendung im Look eines Leder-Tagebuchs",
@@ -341,7 +389,8 @@
           "Oberfläche wie ein aufgeschlagenes Tagebuch mit zwei Seiten und Lesezeichen; Buchgröße per Ecke verstellbar, Farben passen sich dem aktiven Werkzeug an",
           "Tag-/Nachtmodus, Buchgröße, Werkzeug und Modus bleiben im Browser gespeichert",
           "Automatisches Speichern pro Eintrag, Löschen mit Bestätigungsdialog in der App",
-          "Modulare Struktur: Komponenten, Services und Pinia-Stores je Modul"
+          "Modulare Struktur: Komponenten, Services und Pinia-Stores je Modul",
+          "Barrierefrei nach WCAG AA mit Tastaturkürzeln, auf schmalen Bildschirmen wird jeweils eine Buchseite gezeigt"
         ]
       },
       "en": {
@@ -351,7 +400,8 @@
           "Interface like an open diary with two pages and a ribbon bookmark; resizable book, colors follow the active tool",
           "Day/night mode; book size, active tool and mode are remembered in the browser",
           "Auto-save per item, in-app confirmation dialog before deleting",
-          "Modular structure: components, services and Pinia stores per module"
+          "Modular structure: components, services and Pinia stores per module",
+          "Accessible to WCAG AA with keyboard shortcuts, on narrow screens one book page is shown at a time"
         ]
       }
     },
@@ -407,32 +457,35 @@
       "title": "SassyBot",
       "category": "webapps",
       "tech": [
-        "Python",
+        "React",
+        "Flask",
         "Gemini API",
-        "TF-IDF"
+        "TF-IDF",
+        "scikit-learn"
       ],
       "repo": "https://github.com/TranceMeli/SassyBot",
       "demo": null,
       "featured": true,
       "screenshots": [
-        "https://raw.githubusercontent.com/TranceMeli/SassyBot/HEAD/assets/sassybot_screen.png"
+        "https://raw.githubusercontent.com/TranceMeli/SassyBot/HEAD/assets/sassybot-light.jpg",
+        "https://raw.githubusercontent.com/TranceMeli/SassyBot/HEAD/assets/sassybot-dark.jpg"
       ],
       "de": {
-        "subtitle": "Modularer Python-Chatbot mit KI-Anbindung und lokaler Textsuche",
+        "subtitle": "Chatbot mit Attitüde: Flask-API, Gemini und TF-IDF-Suche, dazu eine React-Oberfläche",
         "highlights": [
-          "Entwicklung eines modularen Chatbots mit Python und der Gemini API",
-          "Kombination von KI-generierten Antworten und TF-IDF-basierter Textsuche",
-          "Umsetzung einer erweiterbaren Architektur für verschiedene Chatbot-Persönlichkeiten",
-          "Entwicklung einer interaktiven Benutzeroberfläche für die Echtzeit-Kommunikation"
+          "TF-IDF (scikit-learn) findet die drei ähnlichsten Trainingsbeispiele, Gemini schreibt daraus eine neue Antwort im gleichen Stil",
+          "Fällt der Gemini-Aufruf aus, antwortet SassyBot aus handgeschriebenen Ersatzzeilen",
+          "Chat-Oberfläche mit hellem und dunklem Modus, Startvorschlägen, Tippanzeige und Fehlerkarte mit Wiederholen",
+          "Barrierefrei: WCAG-AA-Kontraste, Tastaturbedienung, Screenreader-Labels und reduzierte Bewegung"
         ]
       },
       "en": {
-        "subtitle": "Modular Python chatbot with AI integration and local text search",
+        "subtitle": "Chatbot with attitude: Flask API, Gemini and TF-IDF retrieval, plus a React interface",
         "highlights": [
-          "Developed a modular chatbot with Python and the Gemini API",
-          "Combined AI-generated responses with TF-IDF-based text search",
-          "Built an extensible architecture for different chatbot personalities",
-          "Developed an interactive user interface for real-time communication"
+          "TF-IDF (scikit-learn) finds the three closest training examples, Gemini writes a fresh reply in the same style",
+          "If the Gemini call fails, SassyBot answers from handwritten fallback lines",
+          "Chat interface with light and dark mode, conversation starters, typing indicator and an error card with retry",
+          "Accessible: WCAG AA contrast, keyboard use, screen reader labels and reduced motion"
         ]
       },
       "cvOrder": 3
@@ -1092,19 +1145,19 @@
       "de": {
         "subtitle": "Passwortgenerator mit Terminal-Oberfläche (Python und Textual)",
         "highlights": [
-          "Länge sowie Klein-/Großbuchstaben, Zahlen und Sonderzeichen wählbar",
-          "Sichere Zufallserzeugung mit dem secrets-Modul",
-          "Passwort standardmäßig verborgen, Kopieren in die Zwischenablage",
-          "Retro-inspiriertes Design"
+          "Länge von 4 bis 128 Zeichen sowie Klein-/Großbuchstaben, Zahlen und Sonderzeichen wählbar, jede gewählte Gruppe kommt mindestens einmal vor",
+          "Sichere Zufallserzeugung mit dem secrets-Modul, optional ohne leicht verwechselbare Zeichen",
+          "Passwort standardmäßig verborgen, Stärkeanzeige mit geschätzter Entropie, Kopieren in die Zwischenablage",
+          "Retro-Design mit WCAG-AA-Kontrasten, Tastaturkürzel in der Fußzeile und Tests mit pytest"
         ]
       },
       "en": {
         "subtitle": "Password generator with a terminal interface (Python and Textual)",
         "highlights": [
-          "Selectable length, lowercase, uppercase, numbers and special characters",
-          "Secure generation with Python's secrets module",
-          "Password hidden by default, copy to clipboard",
-          "Retro-inspired design"
+          "Length from 4 to 128 characters plus lowercase, uppercase, numbers and special characters, every selected set appears at least once",
+          "Secure generation with Python's secrets module, optionally without look-alike characters",
+          "Password hidden by default, strength meter with estimated entropy, copy to clipboard",
+          "Retro design with WCAG AA contrast, keyboard shortcuts in the footer and tests with pytest"
         ]
       }
     },
