@@ -235,10 +235,10 @@
       "repo": "https://raw.githubusercontent.com/TranceMeli/GifMe",
       "demo": null,
       "screenshots": [
-        "https://raw.githubusercontent.com/TranceMeli/GifMe/HEAD/docs/screenshots/overview.png",
-        "https://raw.githubusercontent.com/TranceMeli/GifMe/HEAD/docs/screenshots/detail.png",
+        "/screenshots/gifme-overview.png",
+        "/screenshots/gifme-detail.png",
         "https://raw.githubusercontent.com/TranceMeli/GifMe/HEAD/docs/screenshots/add.png",
-        "https://raw.githubusercontent.com/TranceMeli/GifMe/HEAD/docs/screenshots/edit.png"
+        "/screenshots/gifme-edit.png"
       ],
       "de": {
         "subtitle": "Persönliche Sammlung für GIFs, Memes und Videos, die komplett lokal läuft",
