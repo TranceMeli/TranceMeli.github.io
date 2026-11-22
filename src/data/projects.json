@@ -262,6 +262,49 @@
       }
     },
     {
+      "id": "randomfood",
+      "title": "RandomFood",
+      "category": "webapps",
+      "tech": [
+        "Vue 3",
+        "TypeScript",
+        "Vite",
+        "Django REST Framework",
+        "SQLite",
+        "Playwright"
+      ],
+      "repo": "https://raw.githubusercontent.com/TranceMeli/RandomFood",
+      "demo": null,
+      "screenshots": [
+        "https://raw.githubusercontent.com/TranceMeli/RandomFood/HEAD/docs/screenshots/menu-generator.png",
+        "https://raw.githubusercontent.com/TranceMeli/RandomFood/HEAD/docs/screenshots/restaurant.png",
+        "https://raw.githubusercontent.com/TranceMeli/RandomFood/HEAD/docs/screenshots/home.png",
+        "https://raw.githubusercontent.com/TranceMeli/RandomFood/HEAD/docs/screenshots/order-tracking.png",
+        "https://raw.githubusercontent.com/TranceMeli/RandomFood/HEAD/docs/screenshots/dashboard.png",
+        "https://raw.githubusercontent.com/TranceMeli/RandomFood/HEAD/docs/screenshots/mobile.png"
+      ],
+      "de": {
+        "subtitle": "Lieferdienst-Web-App mit Menü-Generator: ein komplettes Menü aus den Gerichten eines Restaurants",
+        "highlights": [
+          "Menü-Generator mit 2 bis 4 Gängen nach Küche, Ernährungsform, Budget und ausgeschlossenen Allergenen, einzelne Gänge lassen sich sperren oder tauschen",
+          "Bestellen mit oder ohne Konto, mit Wunschzeit, Trinkgeld, Optionen und Statusverlauf; die Preise berechnet der Server",
+          "Drei Rollen: Kunden, Restaurants (Bestellungen, Speisekarte, Öffnungszeiten) und Administratoren",
+          "Deutsch und Englisch, WCAG-2.2-AA-Kontraste (per Test abgesichert), Tastaturbedienung und Skip-Link",
+          "Tests mit pytest, Vitest und Playwright; alle Restaurants, Gerichte und Preise sind Testdaten, Zahlungen nur simuliert"
+        ]
+      },
+      "en": {
+        "subtitle": "Food delivery web app with a menu generator: a complete menu from one restaurant's dishes",
+        "highlights": [
+          "Menu generator with 2 to 4 courses by cuisine, diet, budget and excluded allergens, single courses can be locked or swapped",
+          "Ordering with or without an account, with requested time, tip, options and a status timeline; the server calculates all prices",
+          "Three roles: customers, restaurants (orders, menu, opening hours) and administrators",
+          "German and English, WCAG 2.2 AA contrast (enforced by a test), keyboard operation and a skip link",
+          "Tests with pytest, Vitest and Playwright; all restaurants, dishes and prices are made-up test data, payments are only simulated"
+        ]
+      }
+    },
+    {
       "id": "application-tracker",
       "title": "Application Tracker",
       "category": "webapps",
@@ -346,6 +389,7 @@
           "Editor wie ein Design-Tool: 22 Werkzeuge, Eigenschaften-Panel, Gliederung, Prüfungen, Rückgängig und Live-Vorschau",
           "Server-Side Rendering mit Nuxt, Volltextsuche, Kommentare zu einzelnen Elementen, PDF-Download und Bearbeitungsverlauf",
           "Lesehilfen: Fortschrittsleiste, abhakbare Schritte, Dunkelmodus und Tabellen als Karten auf dem Handy",
+          "Status je Anleitung (veröffentlicht, veraltet, archiviert), Meldefunktion, Moderation und Suchvorschläge bei Tippfehlern",
           "JWT in HttpOnly-Cookies mit Refresh-Token-Rotation, Rollen und Moderation"
         ]
       },
@@ -356,6 +400,7 @@
           "Design-tool style editor: 22 tools, a properties panel, outline, checks, undo and live preview",
           "Server-side rendering with Nuxt, full-text search, comments on single elements, PDF download and edit history",
           "Reading helpers: progress bar, steps that can be ticked off, dark mode and tables as cards on phones",
+          "Status per guide (published, outdated, archived), reporting, moderation and search suggestions after a typo",
           "JWT in HttpOnly cookies with refresh token rotation, roles and moderation"
         ]
       }
@@ -390,7 +435,8 @@
           "Tag-/Nachtmodus, Buchgröße, Werkzeug und Modus bleiben im Browser gespeichert",
           "Automatisches Speichern pro Eintrag, Löschen mit Bestätigungsdialog in der App",
           "Modulare Struktur: Komponenten, Services und Pinia-Stores je Modul",
-          "Barrierefrei nach WCAG AA mit Tastaturkürzeln, auf schmalen Bildschirmen wird jeweils eine Buchseite gezeigt"
+          "Barrierefrei nach WCAG AA mit Tastaturkürzeln, auf schmalen Bildschirmen wird jeweils eine Buchseite gezeigt",
+          "Automatisierte Tests für API, Komponenten und Browser mit CI-Workflow und automatischer Barrierefreiheitsprüfung (axe)"
         ]
       },
       "en": {
@@ -401,7 +447,8 @@
           "Day/night mode; book size, active tool and mode are remembered in the browser",
           "Auto-save per item, in-app confirmation dialog before deleting",
           "Modular structure: components, services and Pinia stores per module",
-          "Accessible to WCAG AA with keyboard shortcuts, on narrow screens one book page is shown at a time"
+          "Accessible to WCAG AA with keyboard shortcuts, on narrow screens one book page is shown at a time",
+          "Automated tests for the API, components and browser with a CI workflow and an automatic accessibility scan (axe)"
         ]
       }
     },
@@ -685,14 +732,18 @@
       "repo": "https://github.com/TranceMeli/RoastPong",
       "demo": null,
       "screenshots": [
-        "https://github.com/user-attachments/assets/caa8218a-f606-44bb-a57b-c2bff576cd43"
+        "https://raw.githubusercontent.com/TranceMeli/RoastPong/HEAD/docs/screenshots/menu.png",
+        "https://raw.githubusercontent.com/TranceMeli/RoastPong/HEAD/docs/screenshots/gameplay.png",
+        "https://raw.githubusercontent.com/TranceMeli/RoastPong/HEAD/docs/screenshots/roast.png",
+        "https://raw.githubusercontent.com/TranceMeli/RoastPong/HEAD/docs/screenshots/game_over.png"
       ],
       "de": {
         "subtitle": "Pong mit Twist: Zwei CPU-Paddles roasten sich nach jedem Punkt",
         "highlights": [
           "Roasts werden live von der Google Gemini API erzeugt, mit lokaler Roast-Liste als Fallback",
           "KI-Konter des Verlierers und Bewertung der Roasts von 1 bis 10",
-          "Hauptmenü mit Schwierigkeit und Punktelimit, Game-Over-Screen mit Rematch"
+          "Hauptmenü mit Schwierigkeit und Punktelimit, Game-Over-Screen mit Rematch",
+          "Pausemenü, 3-2-1-Countdown, Lautstärke und große Roast-Schrift, Einstellungen werden gespeichert"
         ]
       },
       "en": {
@@ -700,7 +751,8 @@
         "highlights": [
           "Roasts generated live by the Google Gemini API, with a local roast list as fallback",
           "AI comeback from the loser and roast scoring from 1 to 10",
-          "Main menu with difficulty and score limit, game-over screen with rematch"
+          "Main menu with difficulty and score limit, game-over screen with rematch",
+          "Pause menu, 3-2-1 countdown, volume and large roast text, settings are saved"
         ]
       }
     },
@@ -716,22 +768,24 @@
       "repo": "https://github.com/TranceMeli/SchnitzelVerbrechen",
       "demo": null,
       "screenshots": [
-        "https://raw.githubusercontent.com/TranceMeli/SchnitzelVerbrechen/HEAD/Screenshot%202026-05-28%20130547.png"
+        "https://raw.githubusercontent.com/TranceMeli/SchnitzelVerbrechen/HEAD/docs/screenshot.png"
       ],
       "de": {
         "subtitle": "Chaotisches Memory-Spiel rund um absurde „Schnitzel-Verbrechen“",
         "highlights": [
-          "Klassisches Memory-Prinzip mit humorvollem Thema",
-          "Leichtgewichtige JavaScript-Logik",
-          "Version 02: überarbeitete Fassung des ursprünglichen Konzepts"
+          "Klassisches Memory-Prinzip mit humorvollem Thema, zwei Stufen mit 6 oder 8 Paaren",
+          "Spielstand mit Zügen, Zeit, Score und Rekord pro Schwierigkeit, Pause auch beim Tabwechsel",
+          "Bedienbar per Maus, Touch und Tastatur, mit Screenreader-Ansagen und ohne reine Farbsignale",
+          "Reines HTML, CSS und JavaScript ohne Framework"
         ]
       },
       "en": {
         "subtitle": "Chaotic memory card game about absurd “schnitzel crimes”",
         "highlights": [
-          "Classic memory gameplay with a humorous theme",
-          "Lightweight JavaScript logic",
-          "Version 02: a reworked version of the original concept"
+          "Classic memory gameplay with a humorous theme, two levels with 6 or 8 pairs",
+          "Game state with moves, time, score and a record per difficulty, pauses on tab change too",
+          "Playable by mouse, touch and keyboard, with screen reader announcements and no color-only signals",
+          "Plain HTML, CSS and JavaScript without a framework"
         ]
       }
     },
@@ -926,7 +980,8 @@
         "highlights": [
           "Fahrenheit/Celsius, Fuß und Zoll/Zentimeter, Meilen/Kilometer, Pfund/Kilogramm",
           "Live-Umrechnung beim Tippen, in beide Richtungen",
-          "Flexible Eingabe von Fuß und Zoll (z. B. 5'9\" oder 5 9)"
+          "Flexible Eingabe von Fuß und Zoll (z. B. 5'9\" oder 5 9)",
+          "Strenge Eingabeprüfung mit Hinweisen, barrierefrei, die Schriften sind lokal eingebunden"
         ]
       },
       "en": {
@@ -934,7 +989,8 @@
         "highlights": [
           "Fahrenheit/Celsius, feet and inches/centimeters, miles/kilometers, pounds/kilograms",
           "Live conversion while typing, in both directions",
-          "Flexible input for feet and inches (e.g. 5'9\" or 5 9)"
+          "Flexible input for feet and inches (e.g. 5'9\" or 5 9)",
+          "Strict input validation with hints, accessible, fonts are self-hosted"
         ]
       }
     },
