@@ -193,29 +193,29 @@
       "demo": null,
       "status": "wip",
       "screenshots": [
-        "https://raw.githubusercontent.com/TranceMeli/InMoshPit/HEAD/docs/screenshots/streams.png",
+        "https://raw.githubusercontent.com/TranceMeli/InMoshPit/HEAD/docs/screenshots/home.png",
         "https://raw.githubusercontent.com/TranceMeli/InMoshPit/HEAD/docs/screenshots/events.png",
-        "https://raw.githubusercontent.com/TranceMeli/InMoshPit/HEAD/docs/screenshots/videos.png",
-        "https://raw.githubusercontent.com/TranceMeli/InMoshPit/HEAD/docs/screenshots/stream-countdown.png"
+        "https://raw.githubusercontent.com/TranceMeli/InMoshPit/HEAD/docs/screenshots/artists.png",
+        "https://raw.githubusercontent.com/TranceMeli/InMoshPit/HEAD/docs/screenshots/home-mobile.jpg"
       ],
       "de": {
         "subtitle": "Streaming-Plattform für Live-Konzerte und Festivals mit Archiv der Aufzeichnungen",
         "highlights": [
+          "Layout wie eine Video-Plattform: Kopfleiste mit globaler Suche, einklappbare Seitenleiste und Navigation am unteren Rand auf dem Handy",
           "Live-Streams mit Countdown, Statusanzeige und HLS-Wiedergabe (hls.js)",
           "Archiv der Aufzeichnungen mit Likes und Kommentaren",
-          "Events (Konzerte, Festivals) mit Line-up, Bühnen, Künstlern und Bands",
-          "Registrierung und JWT-Login mit rotierenden Refresh-Tokens und automatischer Erneuerung",
-          "Oberfläche auf Deutsch und Englisch (vue-i18n), Demo-Daten mit generierten Covern"
+          "Events (Konzerte, Festivals) mit Line-up, Bühnen, Künstlern und Bands, Symbole passend zum Genre",
+          "Registrierung und JWT-Login mit rotierenden Refresh-Tokens und automatischer Erneuerung, Oberfläche auf Deutsch und Englisch"
         ]
       },
       "en": {
         "subtitle": "Concert streaming platform: watch live concerts and festivals, then catch up with the recordings",
         "highlights": [
+          "Video-platform layout: top bar with global search, collapsible sidebar and bottom navigation on phones",
           "Live streams with countdown, status updates and HLS playback (hls.js)",
           "Recordings archive with likes and comments",
-          "Events (concerts, festivals) with line-ups, stages, artists and bands",
-          "Registration and JWT login with rotating refresh tokens and automatic renewal",
-          "German and English interface (vue-i18n), demo data with generated covers"
+          "Events (concerts, festivals) with line-ups, stages, artists and bands, icons follow the genre",
+          "Registration and JWT login with rotating refresh tokens and automatic renewal, German and English interface"
         ]
       }
     },
